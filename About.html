@@ -17,7 +17,6 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="static/css/font-awesome.min.css">
 
-
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:600" rel="stylesheet">
 
@@ -47,19 +46,15 @@
           <a class="nav-link" href={{ url_for('about') }}>About<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href={{ url_for('articles') }}>Resaurants</a>
+          <a class="nav-link" href="">Resaurants</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href={{ url_for('sources') }}>Reviews</a>
+          <a class="nav-link" href="">Reviews</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href={{ url_for('locations') }}>Reviewers</a>
+          <a class="nav-link" href="">Reviewers</a>
         </li>
       </ul>
-      <form class="form-inline pull-xs-right" action="/news_search" method="post">
-        <input id="searchbar" name="searchbar" class="form-control" type="text" placeholder="Search" ng-model="query">
-        <button class="btn btn-outline-success" type="submit" value="Search">Search</button>
-      </form>
     </nav>
 
      <!-- Page Content -->
@@ -86,7 +81,7 @@
 
         <div class="row">
             <div class="col-lg-6 text-center">
-                <img class="img-circle img-responsive img-center" src="static/img/profilepic.jpg" alt="" max-width = 50% max-height=50%>
+                <img class="img-circle img-responsive img-center" src="static/img/Dingyupic.jpg" alt="">
                 <h3 class="about-text">Dingyu Wang</h3>
                 <p class="about-text">I'm a 3rd year Mathematics major at UT Austin</p>
                 <p class="about-text">Major Responsibilities: N/A</p>
@@ -132,10 +127,10 @@
                 <h2 class="page-header">
                     <i class="fa fa-bar-chart" aria-hidden="true">
                     </i>  Stats</h2><hr>
-                <h4>Total # of commits : N/A</h4>
-                <h4>Total # of issues : N/A</h4>
-		<h4><a href="https://github.com/CapitalPrince100/cs329e-idb">GitHub Repo</a>
-                <h4><a href="https://github.com/CapitalPrince100/cs329e-idb/wiki">GitHub Wiki</a> 
+                <h5>Total # of commits : N/A</h5>
+                <h5>Total # of issues : N/A</h5>
+		<h5><a href="https://github.com/CapitalPrince100/cs329e-idb">GitHub Repo</a></h5>
+                <h5><a href="https://github.com/CapitalPrince100/cs329e-idb/wiki">GitHub Wiki</a></h5> 
             </div>
         </div><br>
 
@@ -147,10 +142,10 @@
             <div class="col-lg-12 text-center">
                 <h2 class="page-header"><i class="fa fa-wrench" aria-hidden="true">
                 </i>  Tools</h2><hr>
-                <h4>Bootstrap</h4>
-                <h4>GitHub</h4>
-                <h4>Travis CI</h4>
-                <h4>Slack</h4>
+                <h5>Bootstrap</h5>
+                <h5>GitHub</h5>
+                <h5>Travis CI</h5>
+                <h5>Slack</h5>
             </div>
         </div>
         <hr>
