@@ -1,1 +1,411 @@
-ECHO is on.
+commit 94f62c254e4a37473a80e52af7ddd142222489da
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:13:30 2017 -0500
+
+    updated mickey info
+
+commit ca869496eddac8bd829493b0a6ef04ff4779e8cf
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:12:09 2017 -0500
+
+    uploaded new photo for mickey
+
+commit 4ad4db249489d272fef2a2e4cee5251d324a65b6
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:11:51 2017 -0500
+
+    delete the badly named photo
+
+commit f7250350236f7dc6c476bbc4dd6f6b5c62fdd598
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:10:13 2017 -0500
+
+    update mickey pic
+
+commit c69b2d04905957a1c37f05c9ac87c0ee5e62a2c7
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:08:19 2017 -0500
+
+    Add files via upload
+    
+    mickey's picture
+
+commit a1ed46fa441ed6bcc4f6ef4cda930903c3308618
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:01:23 2017 -0500
+
+    more data
+
+commit 873bc603364295e0b5553a432b8a1389ad59c9b3
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 17:46:54 2017 -0500
+
+    added data
+
+commit 5217bd9c9cf2053b73d086db11d99a846ca93936
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 17:41:28 2017 -0500
+
+    added more data
+
+commit 3d9c34b33821fbf78efca1b5d6730053ea99bc2e
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 17:33:21 2017 -0500
+
+    added more data
+
+commit a4e15410253f056a62a4906086d0ff1a2529f4c3
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 16:52:38 2017 -0500
+
+    fixed more typos
+
+commit 21d482878b9058fbcc6617e2b3643fd5e508c5e1
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 16:49:37 2017 -0500
+
+    fixed typos
+
+commit bbd92a830793de07672f10934f10747de10ef01a
+Author: Dhaus <Danielhauser77@gmail.com>
+Date:   Tue Mar 21 16:41:18 2017 -0500
+
+    Update CNAME
+
+commit e6e9aa673e1333ed48fddd51fb2b386e428dc011
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 16:33:57 2017 -0500
+
+    pic adjust
+
+commit 152aaaafaa48e3fdb12076b6faf01dc66e976555
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 16:29:48 2017 -0500
+
+    adjust pic
+
+commit 0fd5c57e106a30d9cc6db19ca987d33bfd570248
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 16:26:12 2017 -0500
+
+    added pic
+
+commit 5bc7ce16ca83484d857c3dbad02a3896eb79c419
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 16:08:54 2017 -0500
+
+    Update CNAME
+
+commit 53fe17dea0c71a3d5bc4b52f57f661f13a5bece1
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 15:58:55 2017 -0500
+
+    fixed typos
+
+commit 245da3f0a6397eeaa45409c692d6139a9ec32a7b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 15:48:03 2017 -0500
+
+    fixed navbar active bug and typos
+
+commit 46e2832f99738ac36c40283bbf7d974f82f5cbce
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 15:31:17 2017 -0500
+
+    Update CNAME
+
+commit 8218bc0ab76bc811014067447df4c5ad0cf85e49
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 15:23:22 2017 -0500
+
+    Update CNAME
+
+commit b8dd29e399dc87246780c06617c8db4e243a3728
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 14:50:53 2017 -0500
+
+    Update CNAME
+
+commit 731a5d93ca865c98b26a2c7024973dd4a2f1df97
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 14:14:19 2017 -0500
+
+    readding CNAME
+
+commit a062c70fdba203068b5059ce8ef8e24c943c77d9
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 14:11:30 2017 -0500
+
+    deleted CNAME
+
+commit 25b9ff2e9068faf835856ee85caef43a434308a6
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:59:16 2017 -0500
+
+    fixed minor bug in link in About
+
+commit 93e16687ec40b17b3c6424df374436561521f20d
+Merge: 03b523e 5c81ad5
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:55:04 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit 03b523ef8f031c5fb4ae0d5c20d08a85396f6058
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:54:31 2017 -0500
+
+    added Reviewers and Reviews html
+
+commit 5c81ad5bb14407744911d94b30daeac83c724171
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:14:36 2017 -0500
+
+    minor typo
+
+commit 4c817b452235bdad907e095911e801c8319af270
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:12:34 2017 -0500
+
+    added restaruants html
+
+commit ef7234deb09a5052f959ddde3b002bd5ba5e99a8
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:46:09 2017 -0500
+
+    Create Restaurant.html
+
+commit 2ca4d845ba63575068822a13a481f57c37a18247
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:42:20 2017 -0500
+
+    changed awesome font
+
+commit d3e19e891766ca619332919eb92d4cd02dad7d20
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:38:27 2017 -0500
+
+    Create single_page.css
+
+commit 378900d8fe2dc8c29326d3b0fbd6b171c29f77c0
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:37:12 2017 -0500
+
+    Create font-awesome.css
+
+commit 5382ee83e34b3080af1dac3dc5597b9f60275a32
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:31:18 2017 -0500
+
+    Create round-about.css
+
+commit b57a38ff50a42af7d3561dbf5eaad1877b369fc7
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:30:38 2017 -0500
+
+    Create pillar.css
+
+commit 3bfe885dbf03171c5f7511642c2ab520aa492c2b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:30:13 2017 -0500
+
+    Create navbar.css
+
+commit bb62b688b568061fcaacda0b971a717e9ac66c7b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:28:27 2017 -0500
+
+    container css
+
+commit 616a64b5589a095e1cc0f24d5393903bdaf3b33b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:27:10 2017 -0500
+
+    Create placeholder.txt
+
+commit 2079e0b2e03000413be63187caf4a3b251fab519
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:14:31 2017 -0500
+
+    added CNAME to point to namecheap website
+
+commit c885f56b0ca304b597d29fbe1ed72634acf4e4a4
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 11:37:37 2017 -0500
+
+    Update About.html
+
+commit f7abbb717f78948bc4903d680dc43fee1b609c1c
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 11:35:10 2017 -0500
+
+    Update About.html
+
+commit 14ccb8a4384bc2c1f95e0bc78f61db60974a76dd
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 11:31:30 2017 -0500
+
+    minor changes
+
+commit 06d3a438f185032e052b9163e7ad41dc1147ff15
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 11:26:15 2017 -0500
+
+    deleted some stuff
+
+commit c2b89155709d2ac6b333a171c54967464c70ea4a
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 10:34:25 2017 -0500
+
+    Updated materialize icons ref
+
+commit ec7c11d2dcdcdbb78f07453ec01aaaca8e497b30
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 10:33:16 2017 -0500
+
+    Updated materialize icons
+
+commit 44c171300f3fc86b232e6fefbb759f7309abce66
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 10:28:58 2017 -0500
+
+    Updated materialize icons link
+
+commit 0cef3be4cc7bd15f8458d891962409e8407a4390
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 10:27:05 2017 -0500
+
+    Added materialize icons
+
+commit 97d0f076fce79606309d1e2df1ef986d75f2007e
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:44:03 2017 -0500
+
+    added issue tracker link
+
+commit e1e66b1528c43ae36fb3fc5029efd9a0bfd1b9a5
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:42:22 2017 -0500
+
+    Delete profilepic.jpg
+
+commit 90a0fdb39a16d75701de4ea58716618c10011289
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:40:41 2017 -0500
+
+    Update About.html
+
+commit 61d156868e24e057427ce0fc18884855f5298fc3
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:36:04 2017 -0500
+
+    Add files via upload
+
+commit 053fb6c60ed5ec94463ec9350d2873f63da4e72d
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:30:37 2017 -0500
+
+    Update About.html
+
+commit 44323fa98c70b2b637f9939e677bc76ec65b5c0a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:17:06 2017 -0500
+
+    Update About.html
+
+commit 2d4496d92255b737f9870ad1b7b059be9fe866ca
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:11:11 2017 -0500
+
+    Update About.html
+
+commit 28a7d793aad8b57cd032f8106655dcb02554a5dd
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:05:49 2017 -0500
+
+    Update About.html
+
+commit c287b31b7b953bd45f44b315789f3f7527585a70
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:04:41 2017 -0500
+
+    Add files via upload
+
+commit f1c88f983988c06a45cb270e46379295644d43db
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:03:30 2017 -0500
+
+    Create temp.txt
+
+commit 131e5f9b7cf42f831559364135674acf3a96783b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:00:24 2017 -0500
+
+    Delete DingyuPic.jpeg
+
+commit 36f8a72f291b11f3b412ba9db3236e248641a327
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:59:58 2017 -0500
+
+    Create DingyuPic.jpeg
+
+commit 0212b35953f4f8b2710d0365ef21b9f92f7be795
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:35:56 2017 -0500
+
+    Update index.html
+
+commit 6e0fddb51e5bf7c1124ac7f855f507f680a57055
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:34:01 2017 -0500
+
+    Update index.html
+
+commit fb58961a335030d125fc0e2d8099b2b4acd3da2d
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:30:39 2017 -0500
+
+    Create About.html
+
+commit 5649f7dd275129556d195390a748196f1d1c58b1
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:05:16 2017 -0500
+
+    Delete CNAME
+
+commit 8800c8f59970033e39d4b3a9c581a38fc0f8ba8c
+Merge: b023cd7 900e7b1
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Mar 20 22:01:13 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit b023cd703997ae36b36aa64a2a2c4c4e6ffcac71
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Mar 20 22:00:52 2017 -0500
+
+    Added index.html
+
+commit 8610f3b686ee9b7ecfdccfa9a408fe081b96c9d6
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Mar 20 22:00:32 2017 -0500
+
+    Added Materialize framework
+
+commit 900e7b113ebb185176834573613f397107588c7a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Mon Mar 20 20:49:49 2017 -0500
+
+    added git log
+
+commit b0feab89ce94202a6d75d7c3a21984a535dbe491
+Author: Dhaus <Danielhauser77@gmail.com>
+Date:   Mon Mar 20 20:30:11 2017 -0500
+
+    Created CNAME
+
+commit 6207e7f1afc3588238423f1563db77c0247198a2
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Mon Mar 20 18:32:00 2017 -0500
+
+    Initial commit
