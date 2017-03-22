@@ -33,3 +33,36 @@ img {
 a:visited {
     color: #000000;
 }
+
+.title-wrapper {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5rem;
+    font-size: 8rem;
+
+}
+section.image {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+}
+
+section.image.img {
+    width: 50%;
+}
+
+section.details {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.rating {
+    text-align: center;
+}
