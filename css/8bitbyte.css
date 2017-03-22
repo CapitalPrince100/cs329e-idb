@@ -5,3 +5,31 @@
 .button-wrapper {
     margin: 10px;
 }
+
+.logo-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-button-wrapper a:link {
+    color: #000000;
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+
+.nav-button-wrapper a:hover {
+    border-bottom: solid 3px #d89f01;
+}
+
+.splash-nav span {
+    padding: 1rem;
+}
+
+a:visited {
+    color: #000000;
+}
