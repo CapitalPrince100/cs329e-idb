@@ -1,3 +1,154 @@
+commit 7349fed0363b932156dbb5064c11b03aa71938e0
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 09:59:57 2017 -0500
+
+    fixed typo in Reviews
+
+commit 819339bf09717f8f8adb33caf8743ea4e56e12fe
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 04:12:12 2017 -0500
+
+    logo fix
+
+commit 1c3fab397ba0432b285cfcbed6a1c1a617b1f1d2
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 04:05:49 2017 -0500
+
+    logo
+
+commit ce7ea3e19741b9dba4c2e048180244979d2899d2
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 02:17:18 2017 -0500
+
+    updated about page
+
+commit 5e74356d19807db4447b9c6b1b2b9e155d9231fb
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 01:48:31 2017 -0500
+
+    minor fix
+
+commit 9d9be764d5bae5d8ec94327b9e981ac73142a70c
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 01:42:37 2017 -0500
+
+    fixed dot bug
+
+commit abb6b8be70c4e9a7b1d21a81829a199df4be9b8e
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 01:24:03 2017 -0500
+
+    added background image
+
+commit 774d38a5b1977b7eae715b32fab73025eec812d9
+Merge: 683b5e4 a109e6c
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 00:32:28 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit 683b5e4a77908983a7f78b4591d222e29000ae7a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 00:32:13 2017 -0500
+
+    added iframes
+
+commit a109e6cdea37dbe00ff0a398134b22a27554de5c
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 00:05:47 2017 -0500
+
+    Added headshot
+
+commit 3d6a4695b38e5b8aa39c051b4b706a3a25003ece
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 20:17:54 2017 -0500
+
+    added photos
+
+commit 769589c85c12c9330b7f9c8d789b903cb483eaff
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 19:45:06 2017 -0500
+
+    Updated index.html
+
+commit 91a78a32ea61c6db1f85085ca87c5675e1e58c0f
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 19:43:23 2017 -0500
+
+    Updated splash page
+
+commit 53eb280f7ac24df1b930f4dd83da6ad35eb3f14f
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 19:38:34 2017 -0500
+
+    minor bug fixes with links
+
+commit f6dc90d500c2c39f3aab8022c944e7733bf7e6d8
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 19:33:09 2017 -0500
+
+    added pictures and links
+
+commit 27ee2c5f39e80c586d4b29cc8df3b68956cb2760
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Tue Mar 21 18:52:40 2017 -0500
+
+    modified dimensions of Ross bio pic
+
+commit 4cf41a20e660dbf1dabb658deec9aaf966ad4e55
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:50:11 2017 -0500
+
+    Delete rosspic.jpg
+
+commit 7c0b747b8a14bf9406a9332f484752ef3131bc74
+Author: rmiglin <rossmiglin@gmail.com>
+Date:   Tue Mar 21 18:49:08 2017 -0500
+
+    Add files via upload
+
+commit bb86e61bed3e458aaf8b95ab57648d958deb5e56
+Author: rmiglin <rossmiglin@gmail.com>
+Date:   Tue Mar 21 18:48:29 2017 -0500
+
+    Add files via upload
+
+commit c84628316d4398227024ad060799409e1eee6e3b
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:45:53 2017 -0500
+
+    added two reviews (Tyler Durden and Amy Yang)
+
+commit 13be16b19b12fad85053cd539718a6cb97473c89
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:41:27 2017 -0500
+
+    Update Reviews.html
+
+commit 44042ae6590a139ef0c3f31abe91ca6b5eb517af
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:36:05 2017 -0500
+
+    added reviewers
+
+commit b380ed1de11f52e446e45a13b68c6bb72aaa2c66
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Tue Mar 21 18:32:09 2017 -0500
+
+    Added Ross image link and bio  to About.html
+
+commit a97aeba4c104a98e27344a1b0fefbe44f1cb498a
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Tue Mar 21 18:28:43 2017 -0500
+
+    add Ross bio picture
+
+commit 825c12efe8563f2c7e198e23a10ec7b507f07c40
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:24:08 2017 -0500
+
+    log updated
+
 commit 94f62c254e4a37473a80e52af7ddd142222489da
 Author: Mickey Li <mickeyli@utexas.edu>
 Date:   Tue Mar 21 18:13:30 2017 -0500
