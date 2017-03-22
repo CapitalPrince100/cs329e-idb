@@ -18,7 +18,7 @@ img {
 
 .nav-button-wrapper a:link {
     color: #000000;
-    font-weight: 100;
+    font-weight: 96;
     padding-bottom: 5px;
 }
 
@@ -27,7 +27,7 @@ img {
 }
 
 .splash-nav span {
-    padding: 1rem;
+    padding: 1.1rem;
 }
 
 a:visited {
