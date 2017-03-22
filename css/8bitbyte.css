@@ -37,10 +37,9 @@ a:visited {
 .title-wrapper {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    letter-spacing: -0.5rem;
-    font-size: 8rem;
-
+    font-weight: 100;
+    letter-spacing: -0.2rem;
+    font-size: 5rem;
 }
 section.image {
     display: inline-block;
@@ -65,4 +64,16 @@ section.details {
 
 .rating {
     text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pillar-page-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: -0.2rem;
+    font-size: 5rem;
 }
