@@ -56,7 +56,13 @@
 .splash-nav span {
     padding: 1.1rem;
 }
-
+.pillar-page-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: -0.2rem;
+    font-size: 4rem;
+}
 
 
 .title-wrapper {
@@ -64,7 +70,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     letter-spacing: -0.2rem;
-    font-size: 5rem;
+    font-size: 4rem;
     margin-top: 2rem;
 }
 section.image {
@@ -96,14 +102,6 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
-.pillar-page-title {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    letter-spacing: -0.2rem;
-    font-size: 5rem;
-}
-
 th, td {
     font-family: 'Roboto', sans-serif;
 }
@@ -112,7 +110,7 @@ th, td {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 1.8rem;
 }
 
 .review-image-collapsible {

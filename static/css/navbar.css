@@ -2,7 +2,8 @@ h1{
 	/* H1 is the style for the BestBytes title */
 	text-align: center;
 	font-family: "Roboto", sans-serif;
-	font-size: 4.2em;
+	font-size: 4em;
+        font-weight: 200;
 	color: rgba(0,0,0,0.8705);
     
 }
