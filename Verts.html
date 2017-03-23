@@ -21,6 +21,17 @@
 
 
 <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo"><img src="static/img/logo.png"/></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="About.html">About</a></li>
+          <li><a href="Restaurants.html">Restaurants</a></li>
+          <li><a href="Reviews.html">Reviews</a></li>
+          <li><a href="Reviewers.html">Reviewers</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <div class="container">
         <header>
@@ -41,10 +52,10 @@
             </section>
 
             <section class="details">
-                <ul class="collapsible" data-collapsible="accordion">
+                <ul class="collapsible popout" data-collapsible="accordion">
                     <li>
                         <div class="collapsible-header"><i class="material-icons">filter_drama</i>About</div>
-                        <div class="collapsible-body"><span>Mediterranean cuisine</span></div>
+                        <div class="collapsible-body"><span>Mediterranean cuisine, $</span></div>
                     </li>
                     <li>
                         <div class="collapsible-header"><i class="material-icons">place</i>Contact Us</div>
@@ -55,7 +66,33 @@
                     </li>
                     <li>
                         <div class="collapsible-header"><i class="material-icons">whatshot</i>Reviews</div>
-                        <div class="collapsible-body"><span>Embedded reviews</span></div>
+                            <div class="collapsible-body">
+                                <div class="collapsible-review-header">
+                                    <span>Most Recent Review</span>
+                                    <div class="rating">
+                                        <i class="small material-icons">stars</i>
+                                        <i class="small material-icons">stars</i>
+                                        <i class="small material-icons">stars</i>
+                                        <i class="small material-icons">stars</i>
+                                        <i class="small material-icons">stars</i>
+                                    </div>
+                                </div>
+                                <div class="row valign-wrapper">
+                                    <div class="col s4 m4">
+                                        <img class="circle responsive-img" src="static/img/johnpic.jpg"/>
+                                        <div class="review-signature">
+                                            <span>John, 03/17/2017</span>
+                                        </div>
+                                    </div>
+                                    <div class="col s8 m8">
+                                        <p class="review-text-collapsible">
+                                            Their Kebaps are really good and healthy. This place has changed a lot since I first started UT.
+                                            Still my go to place when I need something fast, but have been a little disappointed in the prices increases.
+                                        </p><br>
+                                        <div class="all-reviews"><a href="Reviews-Verts.html">See all reviews</a></div>
+                                    </div>
+                                </div>
+                            </div>
                     </li>
                 </ul>
             </section>
