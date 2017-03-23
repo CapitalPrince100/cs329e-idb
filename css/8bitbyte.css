@@ -43,7 +43,11 @@
     font-weight: 200;
 }
 
-a:visited {
+.all-reviews a:visited {
+    color: #000000;
+}
+
+.nav-button-wrapper a:visited {
     color: #000000;
 }
 
