@@ -12,9 +12,12 @@
     padding-top: 50px;
 }
 
-img {
+.logo-wrapper img {
     width: 100%;
 }
+
+
+/* links */
 
 .nav-button-wrapper a:link {
     color: #000000;
@@ -26,13 +29,31 @@ img {
     border-bottom: solid 3px #d89f01;
 }
 
-.splash-nav span {
-    padding: 1.1rem;
+.all-reviews a:hover {
+    border-bottom: solid 3px #d89f01;
+}
+
+.all-reviews a:link {
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.all-reviews a {
+    font-size: 0.8rem;
+    font-weight: 200;
 }
 
 a:visited {
     color: #000000;
 }
+
+/* ----------------------- */
+
+.splash-nav span {
+    padding: 1.1rem;
+}
+
+
 
 .title-wrapper {
     text-align: center;
@@ -40,6 +61,7 @@ a:visited {
     font-weight: 100;
     letter-spacing: -0.2rem;
     font-size: 5rem;
+    margin-top: 2rem;
 }
 section.image {
     display: inline-block;
@@ -66,7 +88,7 @@ section.details {
     text-align: center;
 }
 
-body {
+p {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -76,4 +98,65 @@ body {
     font-weight: 100;
     letter-spacing: -0.2rem;
     font-size: 5rem;
+}
+
+th, td {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pillar-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.review-image-collapsible {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+.review-text-collapsible {
+    display:inline-block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.collapsible-review-header {
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.collapsible-review {
+    text-align: left;
+}
+
+.all-reviews {
+    text-align: right;
+}
+
+.review-signature {
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.nav-wrapper {
+    background-color: #ffffff;
+}
+
+.nav-wrapper a {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: #d89f01;
+}
+
+.nav-wrapper img {
+    height: 65px;
+    padding: 1rem;
 }
