@@ -38,8 +38,8 @@
 	    var img1 = document.getElementById(imgId);
 		img1.style.visibility = "visible"
 	    img1.src = imgLink;
-		img1.width = "46";
-		img1.height = "46";
+		img1.width = "48";
+		img1.height = "48";
 	  }
 	  
 	  function removeImage(imgId)
@@ -134,7 +134,20 @@
 	    <td>Beef wasn't well cooked… way too chewy and unseasoned. Probably wouldn't return again. <a href="Review3.html">(Full review...)</a></td>
 	    <td>2</td>
 	    <td><a style="color:#ff0000">No</a></td>
-          </tr>
+       </tr>
+
+	  <tr>
+	    <td>4</td>
+        <td><a href="" onmouseover=addImage("joshD","static/img/joshD.jpg") onmouseout=removeImage("joshD")>Josh Davis</a><img src="" id="joshD"></img></td>
+		<td>Scala Bistro </td>
+        <td>432 Powell St San Francisco, CA 94102</td>
+	    <td>March 3, 2017</td>
+	    <td>The fog of time probably distorts my memory of Scala's somewhat but the standard of quality is down quite a bit and it's evident in the service, menu, and food.  It's unfortunate but it is what it is - 
+		just another okay restaurant serving passable food to tourists. It was once so much better. <a href="">(Full review...)</a></td>
+	    <td>3</td>
+	    <td><a style="color:#ff0000">No</a></td>
+       </tr>	   
+	   
         </tbody>
       </table>
     </div>
