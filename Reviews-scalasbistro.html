@@ -32,20 +32,6 @@
       $(document).ready(function() {
         $('#table').DataTable({"dom": '<ltip>' });
       });
-	  
-	  function addImage(imgId,imgLink)
-	  {
-	    var img1 = document.getElementById(imgId);
-		img1.style.visibility = "visible"
-	    img1.src = imgLink;
-		img1.width = "48";
-		img1.height = "48";
-	  }
-	  
-	  function removeImage(imgId)
-	  {
-	     document.getElementById(imgId).style.visibility= "hidden";
-	  }
     </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -56,12 +42,9 @@
     <![endif]-->
   </head>
 
-   &nbsp
   <body>
-    
-    
-    <h1><a href="index.html"><img src="static/img/logo.png" width="57" height="57"style = "margin-right: 17px"/></a>8BitBites</h1>
-    
+    <div class="pillar-page-title">8BitBites</div>
+
     <nav class="navbar navbar-light bg-faded">
       <a class="navbar-brand" href="#"></a>
       <ul class="nav navbar-nav">
@@ -84,7 +67,7 @@
     </nav>
 
     <div class="table-container">
-	<div class="pillar-title">Reviews</div>
+	<div class="pillar-title">Scala's Bistro Reviews</div>
       <table id="table" class="table table-hover table-striped">
         <thead>
           <tr>
@@ -100,54 +83,17 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-		    <td>1</td>
-            <td><a href="ReviewerJohn.html" onmouseover=addImage("insertImage","static/img/johnpic.jpg") onmouseout=removeImage("insertImage")>John Anderson</a><img src="" id="insertImage"></img></td>
-            <td>VertsKebap</td>
-            <td>2514 Guadalupe St Austin, TX 78705</td>
-	        <td>February 1, 2017</td>
-	     <td>Their Kebaps are really good and healthy. This place has changed a lot since I first started UT.
-		    Still my go to place when I need something fast, but have been a little disappointed in the prices increases.
-			<a href="Review1.html">(Full review...)</td>
-		<td>4</td>
-	    <td><a style="color:#33cc33">Yes</a></td>
-          </tr>
-
-	  <tr>
-		<td>2</td>
-        <td><a href="ReviewerTyler.html" onmouseover=addImage("insertImage2","static/img/durdenpic.jpg") onmouseout=removeImage("insertImage2")>Tyler Durden</a><img src="" id="insertImage2"></img></td>
-        <td>Tulio</td>
-        <td>1100 5th Ave Seattle, WA 98101</td>
-	    <td>March 3, 2016</td>
-	    <td>Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it.
-		    This place is expensive, but well worth it for a special occassion. <a href="Review2.html">(Full review...)</td>
-		<td>5</td>
-	    <td><a style="color:#33cc33">Yes</a></td>
-      </tr>
-
 	  <tr>
 	    <td>3</td>
-        <td><a href="ReviewerAmy.html" onmouseover=addImage("insertImage3","static/img/amypic.jpg") onmouseout=removeImage("insertImage3")>Amy Yang</a><img src="" id="insertImage3"></img></td>
-        <td>La Contenta</td>
-        <td>102 Norfolk St New York, NY 10002</td>
-	    <td>October 22, 2016</td>
-	    <td>Beef wasn't well cooked… way too chewy and unseasoned. Probably wouldn't return again. <a href="Review3.html">(Full review...)</a></td>
-	    <td>2</td>
-	    <td><a style="color:#ff0000">No</a></td>
-       </tr>
-
-	  <tr>
-	    <td>4</td>
-        <td><a href="ReviewerJosh.html" onmouseover=addImage("joshD","static/img/joshD.jpg") onmouseout=removeImage("joshD")>Josh Davis</a><img src="" id="joshD"></img></td>
-		<td>Scala Bistro</td>
-        <td>432 Powell St San Francisco, CA 94102</td>
+        <td><a href="ReviewerJosh.html">Josh Davis</a></td>
+        <td>Scala's Bistro</td>
+        <td></td>
 	    <td>March 3, 2017</td>
 	    <td>The fog of time probably distorts my memory of Scala's somewhat but the standard of quality is down quite a bit and it's evident in the service, menu, and food.  It's unfortunate but it is what it is - 
 		just another okay restaurant serving passable food to tourists. It was once so much better. <a href="Review4.html">(Full review...)</a></td>
-	    <td>3</td>
+	    <td>2</td>
 	    <td><a style="color:#ff0000">No</a></td>
-       </tr>	   
-	   
+          </tr>
         </tbody>
       </table>
     </div>
