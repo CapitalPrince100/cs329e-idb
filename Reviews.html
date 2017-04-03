@@ -32,7 +32,7 @@
       $(document).ready(function() {
         $('#table').DataTable({"dom": '<ltip>' });
       });
-	  
+
 	  function addImage(imgId,imgLink)
 	  {
 	    var img1 = document.getElementById(imgId);
@@ -41,7 +41,7 @@
 		img1.width = "48";
 		img1.height = "48";
 	  }
-	  
+
 	  function removeImage(imgId)
 	  {
 	     document.getElementById(imgId).style.visibility= "hidden";
@@ -58,10 +58,10 @@
 
    &nbsp
   <body>
-    
-    
+
+
     <h1><a href="index.html"><img src="static/img/logo.png" width="57" height="57"style = "margin-right: 17px"/></a>8BitBites</h1>
-    
+
     <nav class="navbar navbar-light bg-faded">
       <a class="navbar-brand" href="#"></a>
       <ul class="nav navbar-nav">
@@ -142,12 +142,34 @@
 		<td>Scala Bistro</td>
         <td>432 Powell St San Francisco, CA 94102</td>
 	    <td>March 3, 2017</td>
-	    <td>The fog of time probably distorts my memory of Scala's somewhat but the standard of quality is down quite a bit and it's evident in the service, menu, and food.  It's unfortunate but it is what it is - 
-		just another okay restaurant serving passable food to tourists. It was once so much better. <a href="Review4.html">(Full review...)</a></td>
+	    <td>The fog of time probably distorts my memory of Scala's somewhat but the standard of quality is down quite a bit and it's evident in the service, menu, and food.  It's unfortunate but it is what it is -
+		just another okay restaurant serving passable food to tourists. It was once so much better. <a href="Review6.html">(Full review...)</a></td>
 	    <td>3</td>
 	    <td><a style="color:#ff0000">No</a></td>
-       </tr>	   
-	   
+       </tr>
+
+       <tr>
+         <td>5</td>
+            <td><a href="ReviewerJames.html" onmouseover=addImage("jamesconnelly","static/img/jamesconnelly.jpg") onmouseout=removeImage("jamesconnelly")>James Connelly</a><img src="" id="jamesconnelly"></img></td>
+         <td>Wildwood Kitchen</td>
+            <td>410 E Haley St Santa Barbara, CA 93101</td>
+         <td>April 15, 2016</td>
+         <td>Before I start harping on the quality of the food, I will applaud Wildwood for having tremendous customer service. My waiter Sarah was always quick and responsive to my requests and showed enthusiasm and genuine concern for my experience at the restaurant. But beyond that, I will say, Wildwood is nothing more than subpar barbeque <a href="Review6.html">(Full review...)</a></td>
+         <td>3</td>
+         <td><a style="color:#ff0000">No</a></td>
+        </tr>
+
+        <tr>
+          <td>6</td>
+          <td><a href="ReviewerSally.html" onmouseover=addImage("sallychen","static/img/sallychen.jpg") onmouseout=removeImage("sallychen")>Sally Chen</a><img src="" id="sallychen"></img></td>
+          <td>El Taco Riendo</td>
+          <td>2412 Central Ave NE Minneapolis, MN 55418</td>
+          <td>January 15, 2017</td>
+          <td>Everything on El Taco Riendo's menu is incredible. I've ordered multiple variations of their taco trio, ranging from chicken to brisket to pork to tofu tacos - they have it all. Anything you want in a taco, they can make for you. I love the chill atmosphere of the restaurant. It's a great place to kick it with friends on the weekend; they also have an amazing drink selection <a href="Review5.html">(Full review...)</a></td>
+          <td>5</td>
+          <td><a style="color:#33cc33">Yes</a></td>
+         </tr>
+
         </tbody>
       </table>
     </div>
