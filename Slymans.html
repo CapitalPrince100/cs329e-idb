@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/8bitbyte.css"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<style>
+	#bg1{
+	background-image: url("static/img/bghome.jpg")
+	}
+	</style>
+</head>
+
+
+<body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo"><img src="static/img/logo.png"/></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="Restaurants.html">Restaurants</a></li>
+          <li><a href="Reviews.html">Reviews</a></li>
+          <li><a href="Reviewers.html">Reviewers</a></li>
+		  <li><a href="About.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <div class="title-wrapper">
+                Slyman's
+            </div>
+            <div class="rating">
+                <i class="medium material-icons">stars</i>
+                <i class="medium material-icons">stars</i>
+                <i class="medium material-icons">stars</i>
+                <i class="medium material-icons">stars</i>
+                <i class="medium material-icons">stars</i>
+            </div>
+        </header>
+
+        <main>
+            <section class="image">
+                <img src="static/img/slymans1.jpg" class="circle responsive-img"/>
+            </section>
+
+            <section class="details">
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">local_dining</i>About</div>
+                        <div class="collapsible-body"><span>Deli, $$</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">place</i>Contact Us</div>
+                        <div class="collapsible-body">
+                            <span>3106 St Clair Ave NE, Cleveland, OH 44114</span><br/>
+                            <span>(216) 621-3760</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">whatshot</i>Reviews</div>
+                            <div class="collapsible-body">
+                                <div class="collapsible-review-header">
+                                    <span>Most Recent Review</span>
+                                    <div class="rating">
+                                        <i class="small material-icons">stars</i>
+                                        <i class="small material-icons">stars</i>
+                                        <i class="small material-icons">stars</i>
+                                        <i class="small material-icons">stars</i>
+                                        <i class="small material-icons">stars</i>
+                                    </div>
+                                </div>
+                                <div class="row valign-wrapper">
+                                    <div class="col s4 m4">
+                                        <img class="circle responsive-img" src="static/img/AlexBuffpic.jpg"/>
+                                        <div class="review-signature">
+                                            <span>Alex, 05/04/2011</span>
+                                        </div>
+                                    </div>
+                                    <div class="col s8 m8">
+                                        <p class="review-text-collapsible">
+                                            I'm a regular at Slyman's. I know the owner. The owner knows me. I walk in, give him a nod and he starts cooking my usual. Thats how a resuraunt should be run. No talking, no shenanigans.The food is great what else can I say. Their corned beef is good.
+                                        </p><br>
+                                        <div class="all-reviews"><a href="Reviews-Slymans.html">See all reviews</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+    </div>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+
+</html>
