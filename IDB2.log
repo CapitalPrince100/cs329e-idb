@@ -1,0 +1,1503 @@
+commit 585a147afb86a6097cdacb57515d735f6de4765f
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Thu Apr 6 18:22:43 2017 -0500
+
+    updated git stats
+
+commit d487180804e547342e08167d83eba0db13a1f04e
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 18:08:44 2017 -0500
+
+    Changed pagination for Reviewers table page
+
+commit e5e1fba9a5f389cdeafb0ce577f5fc1bd5fc445d
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 18:08:31 2017 -0500
+
+    Changed pagination for Reviews table page
+
+commit c1f16d6762dc18ce3e5abe474714e4c147f79eca
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 18:06:57 2017 -0500
+
+    Changed pagination to 3, 7, 9 and added search
+
+commit b5b9fe68e0361ab303da8b6db40c205c6841b6d4
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Thu Apr 6 17:52:21 2017 -0500
+
+    added js in restaurants.html
+
+commit b1b372a645c9ef8fb10396c14dc2637d66eab902
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 04:19:54 2017 -0500
+
+    Removed additional container to fix spacing on About page
+
+commit 746af87bfe574e2aec6679542f0147a008a26355
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 04:18:03 2017 -0500
+
+    Fixed incorrect names on About page
+
+commit e9f4a25c07eb96a4d86cbfd9a506d3ec88c02efb
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 04:15:47 2017 -0500
+
+    Fixed Mickey's headshot
+
+commit 72394bca1538635a85ec427cf3304530bced9a7c
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 04:12:49 2017 -0500
+
+    Added footer styles
+
+commit c5ce15e1e795fd242a87545df0d1fc4880993e1b
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 04:12:33 2017 -0500
+
+    Fixed footer links to reflect correct Github stats
+
+commit 10a4ab83dac49d9ed85c3cfec3bca1694759e9ad
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 03:40:42 2017 -0500
+
+    Added card styles
+
+commit ff33a872938c783b6b2fa9d44c0c909a78a3daac
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 03:40:23 2017 -0500
+
+    Added everyone's bio cards
+
+commit 8dd12019b951c7011731078b73174214ffe562b7
+Merge: 33861a9 231f147
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 03:13:35 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb into dev
+
+commit 33861a9d3d12e3066743e8cf227dc211317b1b47
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 03:13:29 2017 -0500
+
+    Added Bootstrap button color styles
+
+commit dd233216374a53b41b62d2297a0a7f7e107bba0a
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Apr 6 03:13:12 2017 -0500
+
+    Updated format of bios to cards
+
+commit 231f1478695cadd75c661029f8d746fe3c74e465
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Thu Apr 6 00:33:13 2017 -0500
+
+    corrected flip-flop with Josh Davis link
+
+commit c3a534bc7d80b19cebfeb11924c3c823c1af76a5
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Apr 5 23:42:36 2017 -0500
+
+    added Restaurants page for Ulele
+
+commit d569c774f9b864d09886c914c56ec0ba1dbc17af
+Merge: d657de1 5a2bef0
+Author: Angel Lo <y.lo@utexas.edu>
+Date:   Wed Apr 5 23:31:25 2017 -0500
+
+    Merge pull request #42 from rmiglin/dev
+    
+    Dev
+
+commit 5a2bef0f429b6fb3aaac246ab186b4e4794d0705
+Merge: 1f8e699 633e6b2
+Author: Angel Lo <y.lo@utexas.edu>
+Date:   Wed Apr 5 23:30:52 2017 -0500
+
+    Merge branch 'master' into dev
+
+commit d657de1a253ec4ee10ea9fe56ac5866090735996
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Apr 5 23:30:47 2017 -0500
+
+    added capitalgrille.html
+
+commit 633e6b24f975d92df07712cab8ceef7007225864
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Apr 5 23:14:01 2017 -0500
+
+    Added link to Ulele and Capital Grille on Restaurants page
+
+commit 1f8e69963a6ce6eb9bdaad9248fcafcbf87d8aa2
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 23:11:30 2017 -0500
+
+    Updated Reviewers nav bar and font
+
+commit 16b96a3a70e0d043b5f7150673cc0be09216b7ea
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 23:07:33 2017 -0500
+
+    modified nav bar and collapsible styles
+
+commit bb1aca942b0d3ef6701d50de95f52a268ebee988
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 23:07:04 2017 -0500
+
+    Updated Reviews navbar and font
+
+commit 0c88179cbd8ae39279da462affcaf683390aad3f
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 23:01:50 2017 -0500
+
+    Changed height of nav bar and added Google Maps iframe
+
+commit f9e28859828263ff365b595da576283c3c2ed956
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 22:22:42 2017 -0500
+
+    Updated page header and nav tab fonts
+
+commit e0e52405ba2d68a973d7db120ae4fa82a3bf2d42
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 22:22:00 2017 -0500
+
+    Added images for carousel
+
+commit 4bb42c4ad7ce21121636094e533ebe64a7c0e3a5
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 22:21:28 2017 -0500
+
+    Added toggable tabs and updated font to Roboto
+
+commit 394f3bc917a544112d01416480a04d75a6666829
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Apr 5 01:59:51 2017 -0500
+
+    added Gabriella's full review for Ulele
+
+commit 4d67e9bc0a92d895be179ac759e318916be4e282
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Apr 5 01:51:21 2017 -0500
+
+    Changed review numbers
+
+commit e579e3b5e7e9488eae21c52fc2a9eab9faf46296
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Apr 5 01:02:37 2017 -0500
+
+    added Reviews for Capitall Grille and Ulele
+
+commit b0d4702990f7e62f4896afa178ab15d6b422363f
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Wed Apr 5 00:55:27 2017 -0500
+
+    fixed reviewers.html
+
+commit aa3cce18479c1c38166b72ead4bf0c8adb91badd
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Apr 5 00:21:21 2017 -0500
+
+    fixed typo on ReviewerPaul.html
+
+commit bd8858fb115f3de08996cb72a2fb5b290120bc46
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 00:18:15 2017 -0500
+
+    Added pagination and sorting
+
+commit 316042fc8b75b32dcb6645a3503bf3393eae1774
+Merge: 789c146 789afce
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Wed Apr 5 00:05:59 2017 -0500
+
+    Merge branch 'master' of https://github.com/thenameisangel/capitalprince100.github.io
+
+commit 789c146cf0fc91dc21b291f0db54b209d3508120
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Wed Apr 5 00:05:43 2017 -0500
+
+    last bug on YJ's review pg for KBBQ... i hope #2 lol
+
+commit 789afce91407cd086e9352b9632771ae49415b25
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Apr 5 00:05:09 2017 -0500
+
+    updated Reviewers.html to link to Gabriella and Paul
+
+commit 26f1626b0098e572aec00dbf69fefe7cfb7558b8
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Wed Apr 5 00:03:50 2017 -0500
+
+    last bug on YJ's review pg for KBBQ... i hope
+
+commit 0af4abcf9e5f4b1970564939a58e236aebe2dbdd
+Merge: a2b9f41 8ac9c37
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Wed Apr 5 00:02:51 2017 -0500
+
+    Merge branch 'master' of https://github.com/thenameisangel/capitalprince100.github.io
+
+commit a2b9f418a19e5f9a37c0f562b56bc867767f755c
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Wed Apr 5 00:02:37 2017 -0500
+
+    caught another bug on Review for KBBQ
+
+commit 8ac9c377478720d32d89bc1c78f194fafb1759e1
+Merge: d2ad773 08af2fd
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 00:01:32 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit 08af2fd54b9759da67dffe6f48c20ac209aba27e
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Wed Apr 5 00:01:08 2017 -0500
+
+    fixed a small error on the les halles and parks bbq review page
+
+commit d2ad773fad3a80f5b029f2ba3dc26a6f3ba710a0
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Apr 5 00:00:55 2017 -0500
+
+    Added jquery
+
+commit 72d2cc7fd7b4f06fd987c6254a83c08a7e728709
+Merge: 748ce11 c04069c
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:57:50 2017 -0500
+
+    Merge branch 'master' of https://github.com/thenameisangel/capitalprince100.github.io
+
+commit 748ce11f6cf631ea34579b042a1dbc4b0de1e209
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:57:40 2017 -0500
+
+    updating the restaurant pages
+
+commit c04069c2564e8cec079c37cf0648fbc346ae732b
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Tue Apr 4 23:56:16 2017 -0500
+
+    Added Reviwer pages and info for Gabriella and Paul
+
+commit 4531c1b104e2ad3270230e26df3e805001ba3fce
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:54:50 2017 -0500
+
+    adding reviews-Slymans
+
+commit 2edc2de3f9ae607d195fc221c45c65a364d3087a
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:50:43 2017 -0500
+
+    minor text fixes
+
+commit 70d63aa7dbc9215524f4448e6b30a83df39f20cc
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:46:21 2017 -0500
+
+    added Slymans.html
+
+commit c29b15b8fa526ea64da2dcd2b0880022105ac66b
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:45:13 2017 -0500
+
+    modifying pic on YJ profile
+
+commit 41880b578310a05293d9b4f1ce007827426b47eb
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:42:52 2017 -0500
+
+    whoops last commit was an unnecessary one
+
+commit b87b24d8703c1578da1eac784e6e197770056961
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:40:42 2017 -0500
+
+    editing kbbq review
+
+commit f275a071a3f64a98a27ba3b69584ebb0203c8ea7
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:38:53 2017 -0500
+
+    modifying Robert & yj links
+
+commit 58077003ada5925cf9cc912f6314a82b95269e9e
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:36:41 2017 -0500
+
+    updating pics in review 8
+
+commit 3da206ea412693d97ec3b3bf7cfa248bba21318e
+Merge: e6cc013 49d90f9
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:34:39 2017 -0500
+
+    Merge branch 'master' of https://github.com/thenameisangel/capitalprince100.github.io
+
+commit e6cc0134f0c3c7c6b28d26713df715b05a88b88e
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:34:27 2017 -0500
+
+    updating the reviews.html page
+
+commit 49d90f9fdcd6a3590cb6bba97d0f526c0299ac25
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:33:25 2017 -0500
+
+    minor text fixes
+
+commit 6dd4f61c8b8ec0fc50d560036934fc530eadbad9
+Merge: 3101f87 d642c39
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:28:29 2017 -0500
+
+    Merge branch 'master' of https://github.com/rmiglin/rmiglin.github.io
+
+commit 3101f8753c3da34bc3908abf5f1bf903f84e95dc
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:28:11 2017 -0500
+
+    added reviewerAlex.html
+
+commit d642c39377e758a0339e3b0fbed44e542d4ae34c
+Merge: c664a3f ef6a744
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:25:15 2017 -0500
+
+    Merge branch 'master' of https://github.com/thenameisangel/capitalprince100.github.io
+
+commit c664a3fa12b41df0fbe91548855213a5dbab7196
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 23:25:00 2017 -0500
+
+    Added photos of places and people and updated reviewers.html
+
+commit ef6a744eb19ad2a6288f2338ab165e1c9f9d2e19
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:14:37 2017 -0500
+
+    adding Review10sly.html
+
+commit 12e41020cc56ddb99de2db714aa427a5e3d28ae6
+Merge: c72ebec 1082805
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:01:52 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/capitalprince100.github.io
+
+commit c72ebec4dea7024346a6e0b4d7509e905e483779
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 23:01:36 2017 -0500
+
+    fixed reviews.html
+
+commit 10828053c9306b103dacf149f3375f90c01282e4
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Apr 4 23:00:21 2017 -0500
+
+    Removed Dingyu's profile from About page
+
+commit 929f49a1e4b7d7dd0c094aa7994fa56848b0a4c7
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 22:56:54 2017 -0500
+
+    added alex buff and slymans to main pillars
+
+commit e34b5ce19523b94f9808406c7f21bddbaedfe8f5
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Apr 4 17:19:16 2017 -0500
+
+    added madison reviewer and snake river grill
+
+commit 8d82da1382004be0bb9a00248418b8ad0f70a322
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 11:42:37 2017 -0500
+
+    updating reviewers page
+
+commit fe3e19b7cb672fb81fd1f510dd9ae747e46af9b2
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 11:35:42 2017 -0500
+
+    updated Reviewers pg
+
+commit 88e78e6f491e09daaaa0bcc99383c809bf3b0350
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 11:33:04 2017 -0500
+
+    adding YoungJoun - ParksBBQ - review
+
+commit 1bfaff02586ccaf40f5257ef76eefec6b2c4cca1
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 11:27:55 2017 -0500
+
+    adding files for Robert-LesHalles page-review page
+
+commit 298ffcae638c81f05099294500a9db54fc80efa5
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 11:24:39 2017 -0500
+
+    added Les Halles review html page
+
+commit a9f14ed690cfc6cb4a40828d311fccc0a5de4079
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Apr 4 11:17:41 2017 -0500
+
+    added page for Young-joun
+
+commit ce0b94947f77b2c99a4100e410b0b7df16e86970
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Mon Apr 3 21:37:50 2017 -0500
+
+    added the reviewer page for robert
+
+commit 0e5102d8ca7bf2c4f4ccd677ed3ccaa2492a5a16
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:07:13 2017 -0500
+
+    Added Sally Chen and James Connelly's reviews to the table
+
+commit 5a76a0c379c8eabf82b38eb209aa5bd67da921fe
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:06:59 2017 -0500
+
+    Updated name on James' profile
+
+commit 560cb9e7de542d4ab641c97e8d58b310fe363f35
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:06:48 2017 -0500
+
+    Added El Taco Riendo and Wildwood Kitchen and removed Google Maps iframes
+
+commit 6166d649f4d7e0caef168d88a84902d8fed2beff
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:06:29 2017 -0500
+
+    Created reviews page for Wildwood Kitchen
+
+commit b8945359325d0644ced15d1867ed64d8f42ed767
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:06:16 2017 -0500
+
+    Created reviews page for El Taco Riendo
+
+commit bf0c4a7c0fc4146631709aae5da2da1b59c7c779
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:05:59 2017 -0500
+
+    Added restaurant images for Wildwood Kitchen
+
+commit f1c893fa857496102d591990441d3567adc7b6ae
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:05:43 2017 -0500
+
+    Added restaurant images for El Taco Riendo
+
+commit 6d80a44afa1f89fe7dcce674a0b863927c292568
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:05:10 2017 -0500
+
+    Created James' review for Wildwood Kitchen
+
+commit af863ea08613007c5cd9f13205736c1d3162e59e
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:04:58 2017 -0500
+
+    Created Sally's review for El Taco Riendo
+
+commit 6e30a65ec3bae7edde31afc2133df14efb43ada6
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:04:41 2017 -0500
+
+    Created restaurant page for Wildwood Kitchen
+
+commit 674f4752e696623f840c7481a7c3dc140fbd40b8
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 04:04:26 2017 -0500
+
+    Created restaurant page for El Taco Riendo
+
+commit 58aca044ca7195b48a06c963ebed78c8052d029a
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 03:12:02 2017 -0500
+
+    Added Josh and Sally to reviewers table
+
+commit 6f115c6c4236134a217089472cff3e1d8941aa27
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 03:11:44 2017 -0500
+
+    Edited name
+
+commit fa80b6e84e53f98db4ce9cad6b43c18b336e205b
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 03:07:58 2017 -0500
+
+    Created Sally Chen's reviewer page
+
+commit b07ff7a406453ba66550241923505415bb7c1b7d
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 03:07:44 2017 -0500
+
+    Added Sally Chen's photo
+
+commit 3220a191859b69858e6be8e00cc45d04671e524d
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 03:04:39 2017 -0500
+
+    Created James Connelly reviewer page
+
+commit ba267b071032113ebca0a34467ae2bc4f85c2a24
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Apr 3 03:04:28 2017 -0500
+
+    Added James Connelly image
+
+commit 245294d8039e635ba121ddef28cab750c5651978
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Sat Apr 1 14:20:45 2017 -0500
+
+    Delete jquery-1.12.3.js
+
+commit b5ed8db32d28538b2d101ccdb5a883adadb9bc30
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 30 23:37:59 2017 -0500
+
+    fixed typo
+
+commit 0d5096fe68057fda2bdc8e3ee15260a240eeb75a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 30 21:18:05 2017 -0500
+
+    added josh complete
+
+commit d4cc93fe0afa9bcf13822e133048e124d0ba55e3
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 30 20:43:32 2017 -0500
+
+    minor typo
+
+commit 3843804348462495df42bed35b78e8cf2cdc620b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 30 20:05:14 2017 -0500
+
+    added josh
+
+commit 8d6966cf49ce8fc6cdec87354ec7674945e107f2
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 30 19:14:02 2017 -0500
+
+    added commits/issues section to bio
+
+commit 24a832f43c3af67a2224c105ee769a87b09cca99
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 28 01:58:43 2017 -0500
+
+    Country Origin word change
+
+commit d50be5d2c059f7df7a7957787e9be34714dc5140
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 28 01:31:22 2017 -0500
+
+    minor word change in Reviewer
+
+commit b580a512bb2bbafeb2d16f9cba9b6453d3c92852
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 28 01:11:54 2017 -0500
+
+    add javascript onmouseover review names
+
+commit 50b3e3a0524ddf4823e43f99a51809319ee6b7ff
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Mon Mar 27 22:22:21 2017 -0500
+
+    added logo to every page
+
+commit f0a7cf1ef17768fe097de8d6881f34aa7e123daf
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Mon Mar 27 21:06:42 2017 -0500
+
+    added IDB2.log file
+
+commit c3fe9098447085b2d5dbcf79dad314c0f6ba5b78
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Mon Mar 27 20:44:00 2017 -0500
+
+    added sorting
+
+commit dfdbdbfec810fab330e2bc07d362c32b84706288
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 23 13:52:55 2017 -0500
+
+    fixed diagram, commits
+
+commit a4311376f02599e07f175ef5a7c54e4030b92e39
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Thu Mar 23 13:45:37 2017 -0500
+
+    Removed Home link on splash page
+
+commit 90c9eda92e120dc513582c2263bad15a1f586657
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 23 13:18:34 2017 -0500
+
+    fixed technical typo for john
+
+commit 57cda6374ef48bb0b051923db2e020e346c04d70
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 23 12:58:52 2017 -0500
+
+    Add files via upload
+
+commit 2639ae116302016653815d2c973b66429aefceb9
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 23 01:34:09 2017 -0500
+
+    final
+
+commit f309eab2480881aa9d075f3ce3042ded203b5f6a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 23 01:30:22 2017 -0500
+
+    typo fixes
+
+commit d3a3c4c1c8b9144345db4b76af3b0a07db2dcf41
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Thu Mar 23 00:38:37 2017 -0500
+
+    fixed typos
+
+commit 943c630d806cf2bd7ec60bf212a8cfba12b9e2ce
+Merge: 898f6cd ed3186c
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 22:10:58 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit 898f6cd9ff9b342753bbd429fd8f6acb1d697441
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 22:09:59 2017 -0500
+
+    Resized about pics
+
+commit aa65b7a4f72c11698c20db461612e7789eb85016
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 22:09:45 2017 -0500
+
+    Modified rows
+
+commit ed3186cab96f806eaed72ce94c5b3f918083b7ca
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Wed Mar 22 22:05:51 2017 -0500
+
+    fixed typo
+
+commit 8d50ec3a8f967a1d27dbb7b68a04923a49039073
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 21:55:48 2017 -0500
+
+    Updated restaurant detail collapsible icon
+
+commit 02641ca47f67f93b46f97f1a93049b05cfdc6ca0
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 21:51:01 2017 -0500
+
+    Fixed typos on Verts recent review
+
+commit b6fe7b8653755638d04220d3cca5e5b21bbe9a12
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 21:50:19 2017 -0500
+
+    Fixed typos on Verts recent review
+
+commit 709aa29374b0c793c149069a059f13e3841a00c6
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Wed Mar 22 21:25:56 2017 -0500
+
+    fixed duplicate about
+
+commit 51898230935b6daae14c9f6863140383769034e2
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Wed Mar 22 21:23:34 2017 -0500
+
+    fixed reviewerJohn.html link
+
+commit 725b5be09b0c3b24c85ee9452326a202e5077e87
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Wed Mar 22 21:04:34 2017 -0500
+
+    finished restaurant links
+
+commit 00e509cbf760af1908f638e06d46998a121ab776
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 20:12:27 2017 -0500
+
+    Updated VertKebap Reviews page
+
+commit 5fd62b51d04027da0809e95b732f5070288a350c
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 20:06:18 2017 -0500
+
+    Fixed visited link color
+
+commit 8aac07e309b8b910c66bc74096efb79c517de783
+Merge: e2b8cff d6b16cd
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 20:01:50 2017 -0500
+
+    Fixed merge conflict with Reviews page
+
+commit e2b8cff747b8f213e425f7ca22a70255d010d859
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 20:00:26 2017 -0500
+
+    Added a page of all Verts reviews
+
+commit 6399647957425cfb63a5985ceba5b184ba8e8d32
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 20:00:12 2017 -0500
+
+    Added styling for embedded reviews in the restaurant page collapsible
+
+commit 1b760a1375ab8da22af62e52f1e33e26949706c8
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 19:59:42 2017 -0500
+
+    Added embedded review in details collapsible
+
+commit fb3ceea1ddee11bed3f9472682b9d999bc06d697
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 19:58:59 2017 -0500
+
+    Cleaned up code
+
+commit e0463e6438e90ee9834367f3af1029123712d424
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 19:58:04 2017 -0500
+
+    Fixed typo
+
+commit d6b16cde27481ef913a8dd913001caffe3b107b9
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 19:44:26 2017 -0500
+
+    Reviews done
+
+commit ac754384bdb20ebee336c474bddc2e3ce758954b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 19:19:14 2017 -0500
+
+    added Review 1
+
+commit bb94d2a026a1787c92bd492592f5ab9d0efecd1d
+Merge: 58599ca b9a4aa5
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 18:23:03 2017 -0500
+
+    Merging changes from review and about pages
+
+commit 58599ca4dea811f48f08fa8c38a4fd43dcd14ef8
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 18:22:55 2017 -0500
+
+    Update all pages to Robot
+
+commit 5cc9fc3e7c582bb0c803bd5b13cc44b7abcec3d3
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 18:22:31 2017 -0500
+
+    Update fonts to Roboto
+
+commit b9a4aa5f036226208f3a1cefb3e52e41eb5c977f
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 18:18:06 2017 -0500
+
+    added Reviewer pages
+
+commit 8093fcc2b34722e50f80e1c674db2f435292eab6
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Wed Mar 22 18:16:22 2017 -0500
+
+    updating mickey's information
+
+commit f830b2caffd82455ae34d5b04aaf147ffe599495
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Wed Mar 22 18:11:26 2017 -0500
+
+    Ross updated his bio
+
+commit ad557a806ed58434acaee0b3376d3f7fb1dd1eee
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Wed Mar 22 18:01:27 2017 -0500
+
+    added Daniel bio
+
+commit 9ac3e23ccb153228f787a9dd5f207fc5308a4335
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 17:10:11 2017 -0500
+
+    deleted logo
+
+commit f31a051413ba1c439b6a453ae7f9f2279aa217f3
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 17:08:59 2017 -0500
+
+    fix
+
+commit a7fae12aeb06cbfd314b6d89782d10b4d8a289eb
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 16:07:36 2017 -0500
+
+    fixed spacing issue
+
+commit 163546080332b82553e38b34c5feb9999955031a
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 15:11:15 2017 -0500
+
+    Updated Angel's 'about me'
+
+commit 3d2b7a0108945c6da5818a4d41e63622263d28ec
+Merge: 9b92b43 67a1d30
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 15:06:55 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit 9b92b432836061fd9b79eaa7c28634a2545df45e
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 15:06:29 2017 -0500
+
+    Added verts landing page image
+
+commit c6da769a8d393bc8471bd6dd55da971698e53e46
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 15:06:18 2017 -0500
+
+    Created initial draft of restaurant landing page
+
+commit fc20f6acecd8b250acb56ac3c5e7b7aa0111f0f2
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 15:05:50 2017 -0500
+
+    Adding CSS for restaurant landing page template
+
+commit b0104b8e7b37bc005533048fe2a0b7a240a1dd2b
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 15:05:36 2017 -0500
+
+    Updated verts link
+
+commit 67a1d304d0ac5f4079cf36c996757e78e204c3ac
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 14:57:54 2017 -0500
+
+    fixed typo
+
+commit 4cb53eb13db4a0528abdde867d0cbb6f0064d501
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 14:04:08 2017 -0500
+
+    corrected typo
+
+commit 22161f9fc0fa28d669649772b8ff5cff2038ce6a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 12:04:16 2017 -0500
+
+    fixed Review layout
+
+commit b0329ecd714dbe30ad91099b69aea315372f7f4f
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 11:56:21 2017 -0500
+
+    changed About placement
+
+commit 32c6e7c5b177934b2de5ff07ef39d51b7b4c794d
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 11:38:48 2017 -0500
+
+    minor typo fix
+
+commit 2338d9a5651fdcaffbdb7f3a3243c3831b8d585d
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 11:36:50 2017 -0500
+
+    minor fixes in Reviews and Reviewers
+
+commit 82d4b2e6bd2dcb9f55ff0a724eca9d51a4e65775
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 11:18:02 2017 -0500
+
+    changed navbar foont weight
+
+commit 819a880eb6b18223fa33872cfe41fa738f019f1a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 10:43:00 2017 -0500
+
+    typo and updated log
+
+commit 7349fed0363b932156dbb5064c11b03aa71938e0
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 09:59:57 2017 -0500
+
+    fixed typo in Reviews
+
+commit 819339bf09717f8f8adb33caf8743ea4e56e12fe
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 04:12:12 2017 -0500
+
+    logo fix
+
+commit 1c3fab397ba0432b285cfcbed6a1c1a617b1f1d2
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 04:05:49 2017 -0500
+
+    logo
+
+commit ce7ea3e19741b9dba4c2e048180244979d2899d2
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 02:17:18 2017 -0500
+
+    updated about page
+
+commit 5e74356d19807db4447b9c6b1b2b9e155d9231fb
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 01:48:31 2017 -0500
+
+    minor fix
+
+commit 9d9be764d5bae5d8ec94327b9e981ac73142a70c
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 01:42:37 2017 -0500
+
+    fixed dot bug
+
+commit abb6b8be70c4e9a7b1d21a81829a199df4be9b8e
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 01:24:03 2017 -0500
+
+    added background image
+
+commit 774d38a5b1977b7eae715b32fab73025eec812d9
+Merge: 683b5e4 a109e6c
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 00:32:28 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit 683b5e4a77908983a7f78b4591d222e29000ae7a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Wed Mar 22 00:32:13 2017 -0500
+
+    added iframes
+
+commit a109e6cdea37dbe00ff0a398134b22a27554de5c
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Wed Mar 22 00:05:47 2017 -0500
+
+    Added headshot
+
+commit 3d6a4695b38e5b8aa39c051b4b706a3a25003ece
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 20:17:54 2017 -0500
+
+    added photos
+
+commit 769589c85c12c9330b7f9c8d789b903cb483eaff
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 19:45:06 2017 -0500
+
+    Updated index.html
+
+commit 91a78a32ea61c6db1f85085ca87c5675e1e58c0f
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 19:43:23 2017 -0500
+
+    Updated splash page
+
+commit 53eb280f7ac24df1b930f4dd83da6ad35eb3f14f
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 19:38:34 2017 -0500
+
+    minor bug fixes with links
+
+commit f6dc90d500c2c39f3aab8022c944e7733bf7e6d8
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 19:33:09 2017 -0500
+
+    added pictures and links
+
+commit 27ee2c5f39e80c586d4b29cc8df3b68956cb2760
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Tue Mar 21 18:52:40 2017 -0500
+
+    modified dimensions of Ross bio pic
+
+commit 4cf41a20e660dbf1dabb658deec9aaf966ad4e55
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:50:11 2017 -0500
+
+    Delete rosspic.jpg
+
+commit 7c0b747b8a14bf9406a9332f484752ef3131bc74
+Author: rmiglin <rossmiglin@gmail.com>
+Date:   Tue Mar 21 18:49:08 2017 -0500
+
+    Add files via upload
+
+commit bb86e61bed3e458aaf8b95ab57648d958deb5e56
+Author: rmiglin <rossmiglin@gmail.com>
+Date:   Tue Mar 21 18:48:29 2017 -0500
+
+    Add files via upload
+
+commit c84628316d4398227024ad060799409e1eee6e3b
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:45:53 2017 -0500
+
+    added two reviews (Tyler Durden and Amy Yang)
+
+commit 13be16b19b12fad85053cd539718a6cb97473c89
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:41:27 2017 -0500
+
+    Update Reviews.html
+
+commit 44042ae6590a139ef0c3f31abe91ca6b5eb517af
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:36:05 2017 -0500
+
+    added reviewers
+
+commit b380ed1de11f52e446e45a13b68c6bb72aaa2c66
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Tue Mar 21 18:32:09 2017 -0500
+
+    Added Ross image link and bio  to About.html
+
+commit a97aeba4c104a98e27344a1b0fefbe44f1cb498a
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Tue Mar 21 18:28:43 2017 -0500
+
+    add Ross bio picture
+
+commit 825c12efe8563f2c7e198e23a10ec7b507f07c40
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:24:08 2017 -0500
+
+    log updated
+
+commit 94f62c254e4a37473a80e52af7ddd142222489da
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:13:30 2017 -0500
+
+    updated mickey info
+
+commit ca869496eddac8bd829493b0a6ef04ff4779e8cf
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:12:09 2017 -0500
+
+    uploaded new photo for mickey
+
+commit 4ad4db249489d272fef2a2e4cee5251d324a65b6
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:11:51 2017 -0500
+
+    delete the badly named photo
+
+commit f7250350236f7dc6c476bbc4dd6f6b5c62fdd598
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:10:13 2017 -0500
+
+    update mickey pic
+
+commit c69b2d04905957a1c37f05c9ac87c0ee5e62a2c7
+Author: Mickey Li <mickeyli@utexas.edu>
+Date:   Tue Mar 21 18:08:19 2017 -0500
+
+    Add files via upload
+    
+    mickey's picture
+
+commit a1ed46fa441ed6bcc4f6ef4cda930903c3308618
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 18:01:23 2017 -0500
+
+    more data
+
+commit 873bc603364295e0b5553a432b8a1389ad59c9b3
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 17:46:54 2017 -0500
+
+    added data
+
+commit 5217bd9c9cf2053b73d086db11d99a846ca93936
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 17:41:28 2017 -0500
+
+    added more data
+
+commit 3d9c34b33821fbf78efca1b5d6730053ea99bc2e
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 17:33:21 2017 -0500
+
+    added more data
+
+commit a4e15410253f056a62a4906086d0ff1a2529f4c3
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 16:52:38 2017 -0500
+
+    fixed more typos
+
+commit 21d482878b9058fbcc6617e2b3643fd5e508c5e1
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 16:49:37 2017 -0500
+
+    fixed typos
+
+commit bbd92a830793de07672f10934f10747de10ef01a
+Author: Dhaus <Danielhauser77@gmail.com>
+Date:   Tue Mar 21 16:41:18 2017 -0500
+
+    Update CNAME
+
+commit e6e9aa673e1333ed48fddd51fb2b386e428dc011
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 16:33:57 2017 -0500
+
+    pic adjust
+
+commit 152aaaafaa48e3fdb12076b6faf01dc66e976555
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 16:29:48 2017 -0500
+
+    adjust pic
+
+commit 0fd5c57e106a30d9cc6db19ca987d33bfd570248
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 16:26:12 2017 -0500
+
+    added pic
+
+commit 5bc7ce16ca83484d857c3dbad02a3896eb79c419
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 16:08:54 2017 -0500
+
+    Update CNAME
+
+commit 53fe17dea0c71a3d5bc4b52f57f661f13a5bece1
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 15:58:55 2017 -0500
+
+    fixed typos
+
+commit 245da3f0a6397eeaa45409c692d6139a9ec32a7b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 15:48:03 2017 -0500
+
+    fixed navbar active bug and typos
+
+commit 46e2832f99738ac36c40283bbf7d974f82f5cbce
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 15:31:17 2017 -0500
+
+    Update CNAME
+
+commit 8218bc0ab76bc811014067447df4c5ad0cf85e49
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 15:23:22 2017 -0500
+
+    Update CNAME
+
+commit b8dd29e399dc87246780c06617c8db4e243a3728
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 14:50:53 2017 -0500
+
+    Update CNAME
+
+commit 731a5d93ca865c98b26a2c7024973dd4a2f1df97
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 14:14:19 2017 -0500
+
+    readding CNAME
+
+commit a062c70fdba203068b5059ce8ef8e24c943c77d9
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Tue Mar 21 14:11:30 2017 -0500
+
+    deleted CNAME
+
+commit 25b9ff2e9068faf835856ee85caef43a434308a6
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:59:16 2017 -0500
+
+    fixed minor bug in link in About
+
+commit 93e16687ec40b17b3c6424df374436561521f20d
+Merge: 03b523e 5c81ad5
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:55:04 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit 03b523ef8f031c5fb4ae0d5c20d08a85396f6058
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:54:31 2017 -0500
+
+    added Reviewers and Reviews html
+
+commit 5c81ad5bb14407744911d94b30daeac83c724171
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:14:36 2017 -0500
+
+    minor typo
+
+commit 4c817b452235bdad907e095911e801c8319af270
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 13:12:34 2017 -0500
+
+    added restaruants html
+
+commit ef7234deb09a5052f959ddde3b002bd5ba5e99a8
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:46:09 2017 -0500
+
+    Create Restaurant.html
+
+commit 2ca4d845ba63575068822a13a481f57c37a18247
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:42:20 2017 -0500
+
+    changed awesome font
+
+commit d3e19e891766ca619332919eb92d4cd02dad7d20
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:38:27 2017 -0500
+
+    Create single_page.css
+
+commit 378900d8fe2dc8c29326d3b0fbd6b171c29f77c0
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:37:12 2017 -0500
+
+    Create font-awesome.css
+
+commit 5382ee83e34b3080af1dac3dc5597b9f60275a32
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:31:18 2017 -0500
+
+    Create round-about.css
+
+commit b57a38ff50a42af7d3561dbf5eaad1877b369fc7
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:30:38 2017 -0500
+
+    Create pillar.css
+
+commit 3bfe885dbf03171c5f7511642c2ab520aa492c2b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:30:13 2017 -0500
+
+    Create navbar.css
+
+commit bb62b688b568061fcaacda0b971a717e9ac66c7b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:28:27 2017 -0500
+
+    container css
+
+commit 616a64b5589a095e1cc0f24d5393903bdaf3b33b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:27:10 2017 -0500
+
+    Create placeholder.txt
+
+commit 2079e0b2e03000413be63187caf4a3b251fab519
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 12:14:31 2017 -0500
+
+    added CNAME to point to namecheap website
+
+commit c885f56b0ca304b597d29fbe1ed72634acf4e4a4
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 11:37:37 2017 -0500
+
+    Update About.html
+
+commit f7abbb717f78948bc4903d680dc43fee1b609c1c
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 11:35:10 2017 -0500
+
+    Update About.html
+
+commit 14ccb8a4384bc2c1f95e0bc78f61db60974a76dd
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 11:31:30 2017 -0500
+
+    minor changes
+
+commit 06d3a438f185032e052b9163e7ad41dc1147ff15
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 11:26:15 2017 -0500
+
+    deleted some stuff
+
+commit c2b89155709d2ac6b333a171c54967464c70ea4a
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 10:34:25 2017 -0500
+
+    Updated materialize icons ref
+
+commit ec7c11d2dcdcdbb78f07453ec01aaaca8e497b30
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 10:33:16 2017 -0500
+
+    Updated materialize icons
+
+commit 44c171300f3fc86b232e6fefbb759f7309abce66
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 10:28:58 2017 -0500
+
+    Updated materialize icons link
+
+commit 0cef3be4cc7bd15f8458d891962409e8407a4390
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Tue Mar 21 10:27:05 2017 -0500
+
+    Added materialize icons
+
+commit 97d0f076fce79606309d1e2df1ef986d75f2007e
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:44:03 2017 -0500
+
+    added issue tracker link
+
+commit e1e66b1528c43ae36fb3fc5029efd9a0bfd1b9a5
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:42:22 2017 -0500
+
+    Delete profilepic.jpg
+
+commit 90a0fdb39a16d75701de4ea58716618c10011289
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:40:41 2017 -0500
+
+    Update About.html
+
+commit 61d156868e24e057427ce0fc18884855f5298fc3
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:36:04 2017 -0500
+
+    Add files via upload
+
+commit 053fb6c60ed5ec94463ec9350d2873f63da4e72d
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:30:37 2017 -0500
+
+    Update About.html
+
+commit 44323fa98c70b2b637f9939e677bc76ec65b5c0a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:17:06 2017 -0500
+
+    Update About.html
+
+commit 2d4496d92255b737f9870ad1b7b059be9fe866ca
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:11:11 2017 -0500
+
+    Update About.html
+
+commit 28a7d793aad8b57cd032f8106655dcb02554a5dd
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:05:49 2017 -0500
+
+    Update About.html
+
+commit c287b31b7b953bd45f44b315789f3f7527585a70
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:04:41 2017 -0500
+
+    Add files via upload
+
+commit f1c88f983988c06a45cb270e46379295644d43db
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:03:30 2017 -0500
+
+    Create temp.txt
+
+commit 131e5f9b7cf42f831559364135674acf3a96783b
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 01:00:24 2017 -0500
+
+    Delete DingyuPic.jpeg
+
+commit 36f8a72f291b11f3b412ba9db3236e248641a327
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:59:58 2017 -0500
+
+    Create DingyuPic.jpeg
+
+commit 0212b35953f4f8b2710d0365ef21b9f92f7be795
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:35:56 2017 -0500
+
+    Update index.html
+
+commit 6e0fddb51e5bf7c1124ac7f855f507f680a57055
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:34:01 2017 -0500
+
+    Update index.html
+
+commit fb58961a335030d125fc0e2d8099b2b4acd3da2d
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:30:39 2017 -0500
+
+    Create About.html
+
+commit 5649f7dd275129556d195390a748196f1d1c58b1
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Tue Mar 21 00:05:16 2017 -0500
+
+    Delete CNAME
+
+commit 8800c8f59970033e39d4b3a9c581a38fc0f8ba8c
+Merge: b023cd7 900e7b1
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Mar 20 22:01:13 2017 -0500
+
+    Merge branch 'master' of https://github.com/CapitalPrince100/cs329e-idb
+
+commit b023cd703997ae36b36aa64a2a2c4c4e6ffcac71
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Mar 20 22:00:52 2017 -0500
+
+    Added index.html
+
+commit 8610f3b686ee9b7ecfdccfa9a408fe081b96c9d6
+Author: thenameisangel <y.lo@utexas.edu>
+Date:   Mon Mar 20 22:00:32 2017 -0500
+
+    Added Materialize framework
+
+commit 900e7b113ebb185176834573613f397107588c7a
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Mon Mar 20 20:49:49 2017 -0500
+
+    added git log
+
+commit b0feab89ce94202a6d75d7c3a21984a535dbe491
+Author: Dhaus <Danielhauser77@gmail.com>
+Date:   Mon Mar 20 20:30:11 2017 -0500
+
+    Created CNAME
+
+commit 6207e7f1afc3588238423f1563db77c0247198a2
+Author: CapitalPrince100 <dingyuwang520@utexas.edu>
+Date:   Mon Mar 20 18:32:00 2017 -0500
+
+    Initial commit
