@@ -206,6 +206,54 @@ nav .button-collapse i {
 
 }
 
-.parallax-container {
-    height:
+.btn {
+    padding: 12px 22px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    border: 2px solid #d89f01;
+    background: #ffffff;
+    color: #d89f01;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #d89f01;
+    border: 2px solid #d89f01;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #d89f01;
+    box-shadow: none;
+}
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+
+.btn-primary.outline {
+	border: 2px solid #d89f01;
+	color: #d89f01;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #d89f01;
+	border-color: #d89f01;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #d89f01;
+	color: #d89f01;
+	box-shadow: none;
+}
+
+.btn {
+    font-weight: 300;
 }
