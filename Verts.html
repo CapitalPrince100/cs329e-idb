@@ -11,12 +11,17 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
-	<style>
-	#bg1{
-	background-image: url("static/img/bghome.jpg")
-	}
-	</style>
+
+	<script type="text/javascript">
+    $(document).ready(function(){
+          $('.parallax').parallax();
+        });
+    </script>
+
 </head>
 
 
@@ -61,7 +66,9 @@
                         <div class="collapsible-header"><i class="material-icons">place</i>Contact Us</div>
                         <div class="collapsible-body">
                             <span>1801 E 51st St #300, Austin, TX 78723</span><br/>
-                            <span>(512) 373-8736</span>
+                            <iframe width="200" height="160" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCss3j5LQeY469OfJOKC3Iu86xvAZwtxis&q=2530 Guadalupe St Austin, TX 78705" allowfullscreen></iframe><br/>
+                            <span>(512) 373-8736</span><br/>
+                            <span><a href="http://eatverts.com">Visit their website</a></span>
                         </div>
                     </li>
                     <li>
@@ -95,14 +102,12 @@
                     </li>
                 </ul>
             </section>
+
         </main>
 
     </div>
 
 
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 
 </body>
 
