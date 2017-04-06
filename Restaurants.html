@@ -1,209 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+
     <title>Restaurants Tracker</title>
+
+
     <!-- Round About Style -->
     <link rel="stylesheet" href="static/css/pillar.css">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- DataTable -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:600" rel="stylesheet">
 
     <!-- Navbar styles -->
     <link rel="stylesheet" href="static/css/navbar.css">
 
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+
     <!-- Import custom stylesheet -->
     <link type="text/css" rel="stylesheet" href="css/8bitbyte.css"/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:600" rel="stylesheet">
+
 
     <!-- JavaScript -->
     <script src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap4.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
     <script src="js/jquery-1.12.3.js"></script>
     <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript">
-      $(document).ready(function() {
+    $(document).ready(function() {
         $('#table').DataTable({"dom": '<ltip>' });
-      });
+    });
 
     </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  </head>
-   &nbsp
-  <body>
-    <h1><a href="index.html" class="brand-logo"><img src="static/img/logo.png" width="57" height="57"style = "margin-right: 17px"/></a>8BitBites</h1>
+</head>
 
-    <nav class="navbar navbar-light bg-faded">
-      <a class="navbar-brand" href="#"></a>
-      <ul class="nav navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Restaurants<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Reviews.html">Reviews</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Reviewers.html">Reviewers</a>
-        </li>
-		<li class="nav-item">
-          <a class="nav-link" href="About.html">About</a>
-        </li>
-      </ul>
-    </nav>
+<body>
+    <span>
+        <div class="page-header">
+            <h1>8BitBites</h1>
+        </div>
+    </span>
+
+<ul class="nav nav-tabs">
+    <li role="presentation"><a href="index.html">Home</a></li>
+    <li role="presentation" class="active"><a href="Restaurants.html">Restaurants</a></li>
+    <li role="presentation"><a href="Reviews.html">Reviews</a></li>
+    <li role="presentation"><a href="Reviewers.html">Reviewers</a></li>
+    <li role="presentation"><a href="About.html">About</a></li>
+
+</ul>
 
 
-
+<div class="container">
     <div class="table-container">
-	<div class="pillar-title">Restaurants</div>
-      <table id="table" class="table table-hover table-striped">
-        <thead>
-          <tr>
-            <th>Restaurant Name</th>
-            <th>Cuisine Type</th>
-            <th>Price Range</th>
-            <th>Website</th>
-            <th>Location</th>
-			<th>Phone Number</th>
-            <th>Photo</th>
-          </tr>
-        </thead>
-        <tbody>
+        <div class="page-header">Restaurants</div>
+        <table id="table" class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Restaurant Name</th>
+                    <th>Cuisine Type</th>
+                    <th>Price Range</th>
+                    <th>Website</th>
+                    <th>Location</th>
+                    <th>Phone Number</th>
+                    <th>Photo</th>
+                </tr>
+            </thead>
+            <tbody>
 
-          <tr>
-            <td><a href="Verts.html">VertsKebap</a></td>
-            <td>Mediterranean</td>
-            <td>Inexpensive</td>
-            <td><a href= "http://www.eatverts.com"> www.eatverts.com </a></td>
-            <td>2530 Guadalupe St Austin, TX 78705<br></td>
-			<td>(512) 215-9589</td>
-            <td><img src="static/img/vertspic.jpg" alt="Verts Photo"></td>
-          </tr>
+                <tr>
+                    <td><a href="Verts.html">VertsKebap</a></td>
+                    <td>Mediterranean</td>
+                    <td>Inexpensive</td>
+                    <td><a href= "http://www.eatverts.com"> www.eatverts.com </a></td>
+                    <td>2530 Guadalupe St Austin, TX 78705<br></td>
+                    <td>(512) 215-9589</td>
+                    <td><img src="static/img/vertspic.jpg" alt="Verts Photo"></td>
+                </tr>
 
-		  <tr>
-            <td><a href="lacontenta.html">La Contenta</a></td>
-            <td>Mexican</td>
-            <td>Moderate</td>
-            <td><a href="http://www.lacontentanyc.com">www.lacontentanyc.com</a></td>
-            <td>102 Norfolk St New York, NY 10002 <br>
-            <td>(212) 432-4180</td>
-            <td><img src="static/img/contentapic.jpg" alt="La Contenta Photo"></td>
-          </tr>
+                <tr>
+                    <td><a href="lacontenta.html">La Contenta</a></td>
+                    <td>Mexican</td>
+                    <td>Moderate</td>
+                    <td><a href="http://www.lacontentanyc.com">www.lacontentanyc.com</a></td>
+                    <td>102 Norfolk St New York, NY 10002 <br>
+                        <td>(212) 432-4180</td>
+                        <td><img src="static/img/contentapic.jpg" alt="La Contenta Photo"></td>
+                    </tr>
 
-		  <tr>
-            <td><a href="tulio.html">Tulio</a></td>
-            <td>Italian</td>
-            <td>Pricey</td>
-            <td><a href="http://www.tulio.com/en-us">www.tulio.com</a></td>
-            <td>1100 5th Ave Seattle, WA 98101<br>
-            <td>(206) 624-5500</td>
-            <td><img src="static/img/truliopic.jpg" alt="Trulio Photo"></td>
-          </tr>
+                    <tr>
+                        <td><a href="tulio.html">Tulio</a></td>
+                        <td>Italian</td>
+                        <td>Pricey</td>
+                        <td><a href="http://www.tulio.com/en-us">www.tulio.com</a></td>
+                        <td>1100 5th Ave Seattle, WA 98101<br>
+                            <td>(206) 624-5500</td>
+                            <td><img src="static/img/truliopic.jpg" alt="Trulio Photo"></td>
+                        </tr>
 
 
-		  <tr>
-            <td><a href="scalasbistro.html">Scala's Bistro</a></td>
-            <td>Italian</td>
-            <td>Pricey</td>
-            <td><a href="http://scalasbistro.com">scalasbistro.com</a></td>
-            <td>432 Powell St San Francisco, CA 94102<br></td>
-			<td>(415) 395-8555</td>
-            <td><img src="static/img/scalasbistro.jpg" alt="Scala's Bistro Photo"></td>
-          </tr>
-          <tr>
-              <td><a href="ElTacoRiendo.html">El Taco Riendo</a></td>
-              <td>Mexican</td>
-              <td>Inexpensive</td>
-              <td><a href="http://eltaco-riendo.com">eltaco-riendo.com</a></td>
-              <td>2412 Central Ave NE Minneapolis, MN 55418<br></td>
-            <td>(612) 781-3000</td>
-              <td><img src="static/img/eltacoriendo3.jpg" height="160" alt="El Taco Riendo photo"></td>
-          </tr>
-            <tr>
-              <td><a href="WildwoodKitchen.html">Wildwood Kitchen</a></td>
-              <td>Barbeque, Sandwiches</td>
-              <td>Moderate</td>
-              <td><a href="http://wildwoodkitchensb.com">wildwoodkitchensb.com</a></td>
-              <td>410 E Haley St Santa Barbara, CA 93101<br></td>
-              <td>(805) 845-3995</td>
-              <td><img src="static/img/wildwood3.jpg" height="160" alt="Wildwood Kitchen photo"></td>
-          </tr>
-          <tr>
-            <td><a href="SnakeRiverGrill.html">Snake River Grill</a></td>
-            <td>American Fare</td>
-            <td>Pricey</td>
-            <td><a href="http://snakerivergrill.com/">snakerivergrill.com</a></td>
-            <td>84 E Broadway, Jackson, WY 83001<br></td>
-            <td>(307) 733 0557</td>
-            <td><img src="static/img/snakerivergrill1.jpg" height="160" alt="Snake River Grill photo"></td>
-          </tr>
-		  <tr>
-            <td><a href="Slymans.html">Slyman's</a></td>
-            <td>Deli</td>
-            <td>Moderate</td>
-            <td><a href="http://slymans.com/">slymans.com</a></td>
-            <td>3106 St Clair Ave NE, Cleveland, OH 44114<br></td>
-            <td>(216) 621-3760</td>
-            <td><img src="static/img/slymans2.jpg" height="160" alt="Slyman's photo"></td>
-          </tr>
+                        <tr>
+                            <td><a href="scalasbistro.html">Scala's Bistro</a></td>
+                            <td>Italian</td>
+                            <td>Pricey</td>
+                            <td><a href="http://scalasbistro.com">scalasbistro.com</a></td>
+                            <td>432 Powell St San Francisco, CA 94102<br></td>
+                            <td>(415) 395-8555</td>
+                            <td><img src="static/img/scalasbistro.jpg" alt="Scala's Bistro Photo"></td>
+                        </tr>
+                        <tr>
+                            <td><a href="ElTacoRiendo.html">El Taco Riendo</a></td>
+                            <td>Mexican</td>
+                            <td>Inexpensive</td>
+                            <td><a href="http://eltaco-riendo.com">eltaco-riendo.com</a></td>
+                            <td>2412 Central Ave NE Minneapolis, MN 55418<br></td>
+                            <td>(612) 781-3000</td>
+                            <td><img src="static/img/eltacoriendo3.jpg" height="160" alt="El Taco Riendo photo"></td>
+                        </tr>
+                        <tr>
+                            <td><a href="WildwoodKitchen.html">Wildwood Kitchen</a></td>
+                            <td>Barbeque, Sandwiches</td>
+                            <td>Moderate</td>
+                            <td><a href="http://wildwoodkitchensb.com">wildwoodkitchensb.com</a></td>
+                            <td>410 E Haley St Santa Barbara, CA 93101<br></td>
+                            <td>(805) 845-3995</td>
+                            <td><img src="static/img/wildwood3.jpg" height="160" alt="Wildwood Kitchen photo"></td>
+                        </tr>
+                        <tr>
+                            <td><a href="SnakeRiverGrill.html">Snake River Grill</a></td>
+                            <td>American Fare</td>
+                            <td>Pricey</td>
+                            <td><a href="http://snakerivergrill.com/">snakerivergrill.com</a></td>
+                            <td>84 E Broadway, Jackson, WY 83001<br></td>
+                            <td>(307) 733 0557</td>
+                            <td><img src="static/img/snakerivergrill1.jpg" height="160" alt="Snake River Grill photo"></td>
+                        </tr>
+                        <tr>
+                            <td><a href="Slymans.html">Slyman's</a></td>
+                            <td>Deli</td>
+                            <td>Moderate</td>
+                            <td><a href="http://slymans.com/">slymans.com</a></td>
+                            <td>3106 St Clair Ave NE, Cleveland, OH 44114<br></td>
+                            <td>(216) 621-3760</td>
+                            <td><img src="static/img/slymans2.jpg" height="160" alt="Slyman's photo"></td>
+                        </tr>
 
-      <tr>
-            <td><a href="leshalles.html">Brasserie Les Halles</a></td>
-            <td>French</td>
-            <td>Pricey</td>
-            <td><a href="http://leshalles.net/">leshalles.net</a></td>
-            <td>15 John St, New York, NY 10038<br></td>
-            <td>(212) 285-8585</td>
-            <td><img src="static/img/leshalles1.jpg" height="160" alt="Les Halles' photo"></td>
-          </tr>
+                        <tr>
+                            <td><a href="leshalles.html">Brasserie Les Halles</a></td>
+                            <td>French</td>
+                            <td>Pricey</td>
+                            <td><a href="http://leshalles.net/">leshalles.net</a></td>
+                            <td>15 John St, New York, NY 10038<br></td>
+                            <td>(212) 285-8585</td>
+                            <td><img src="static/img/leshalles1.jpg" height="160" alt="Les Halles' photo"></td>
+                        </tr>
 
-      <tr>
-            <td><a href="parksbbq.html">Park's Barbeque</a></td>
-            <td>Korean, Barbeque</td>
-            <td>Moderate</td>
-            <td><a href="http://www.parksbbq.com/">www.parksbbq.com</a></td>
-            <td>955 S. Vermont Ave, Los Angeles, CA 90006<br></td>
-            <td>(213) 380-1717</td>
-            <td><img src="static/img/parksbbqpic.jpg" height="160" alt="Park's BBQ's photo"></td>
-          </tr>
+                        <tr>
+                            <td><a href="parksbbq.html">Park's Barbeque</a></td>
+                            <td>Korean, Barbeque</td>
+                            <td>Moderate</td>
+                            <td><a href="http://www.parksbbq.com/">www.parksbbq.com</a></td>
+                            <td>955 S. Vermont Ave, Los Angeles, CA 90006<br></td>
+                            <td>(213) 380-1717</td>
+                            <td><img src="static/img/parksbbqpic.jpg" height="160" alt="Park's BBQ's photo"></td>
+                        </tr>
+                        <tr>
+                            <td><a href="capitalgrille.html">The Capital Grille</a></td>
+                            <td>American, Steakhouse</td>
+                            <td>Pricey</td>
+                            <td><a href="http://www.thecapitalgrille.com/home/">www.thecapitalgrille.com</a></td>
+                            <td>801 Hennepin Ave, Minneapolis, MN 55402<br></td>
+                            <td>(612) 692-9000</td>
+                            <td><img src="static/img/capitalgrille2.jpg" height="160" alt="Capital Grille's photo"></td>
+                        </tr>
 
-      <tr>
-            <td><a href="capitalgrille.html">The Capital Grille</a></td>
-            <td>American, Steakhouse</td>
-            <td>Pricey</td>
-            <td><a href="http://www.thecapitalgrille.com/home/">www.thecapitalgrille.com</a></td>
-            <td>801 Hennepin Ave, Minneapolis, MN 55402<br></td>
-            <td>(612) 692-9000</td>
-            <td><img src="static/img/capitalgrille2.jpg" height="160" alt="Capital Grille's photo"></td>
-          </tr>
-
-      <tr>
-            <td><a href="ulele.html">Ulele</a></td>
-            <td>Native American</td>
-            <td>Pricey</td>
-            <td><a href="http://www.ulele.com/">www.ulele.com</a></td>
-            <td><br>1810 North Highland Avenue, Tampa Bay, FL 33602</td>
-            <td>(813) 999-4952</td>
-            <td><img src="static/img/ulele1.jpg" height="160" alt="Ulele's photo"></td>
-          </tr>
-
-        </tbody>
-      </table>
-    </div>
-  </body>
-</html>
+                        <tr>
+                            <td><a href="ulele.html">Ulele</a></td>
+                            <td>Native American</td>
+                            <td>Pricey</td>
+                            <td><a href="http://www.ulele.com/">www.ulele.com</a></td>
+                            <td><br>1810 North Highland Avenue, Tampa Bay, FL 33602</td>
+                            <td>(813) 999-4952</td>
+                            <td><img src="static/img/ulele1.jpg" height="160" alt="Ulele's photo"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+         </div>
+      </body>
+    </html>

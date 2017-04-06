@@ -139,6 +139,9 @@ th, td {
     text-align: left;
 }
 
+.collapsible-body {
+    font-weight: 300;
+}
 .all-reviews {
     text-align: right;
 }
@@ -159,6 +162,50 @@ th, td {
 }
 
 .nav-wrapper img {
-    height: 65px;
-    padding: 1rem;
+    height: 45px;
+    padding: 0.9rem;
+}
+
+.nav-tabs a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #d89f01;
+}
+
+nav {
+    height: 40px;
+    line-height: 40px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 40px;
+    line-height: 40px;
+}
+
+nav .brand-logo {
+    font-size: 1.6rem;
+}
+
+nav .button-collapse i {
+    height: 40px;
+    line-height: 40px;
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 40px;
+        line-height: 40px;
+    }
+}
+
+.page-header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 6rem;
+    letter-spacing: -0.2rem;
+
+}
+
+.parallax-container {
+    height:
 }
