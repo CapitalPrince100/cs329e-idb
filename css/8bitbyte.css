@@ -257,3 +257,24 @@ nav .button-collapse i {
 .btn {
     font-weight: 300;
 }
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.modal-body {
+    font-weight: 300;
+}
+
+.top-buffer {
+    margin: 50px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
