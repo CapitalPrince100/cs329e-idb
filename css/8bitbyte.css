@@ -51,6 +51,24 @@
     color: #000000;
 }
 
+.footer-links a:hover {
+    border-bottom: solid 3px #d89f01;
+}
+
+.footer-links a:link {
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.footer-links a {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.footer-links a:visited {
+    color: #000000;
+}
+
 /* ----------------------- */
 
 .splash-nav span {
@@ -258,6 +276,15 @@ nav .button-collapse i {
     font-weight: 300;
 }
 
+.card-block {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-block button {
+    margin-top: 20px;
+}
+
 .card-title {
     text-align: center;
 }
@@ -271,10 +298,35 @@ nav .button-collapse i {
 }
 
 .top-buffer {
-    margin: 50px;
+    margin-top: 50px;
 }
 
 .card {
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer-links a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#footer-stats {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#footer-stats td, th {
+    padding: 0px 10px 10px 10px;
+}
+
+.card-text {
+    font-weight: 300;
 }
