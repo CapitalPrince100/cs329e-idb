@@ -1,3 +1,39 @@
+commit 8e6e67c8ade4f212e73636a0523219f1dc4951f1
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Thu Apr 6 20:14:08 2017 -0500
+
+    edited total number of commits
+
+commit e900115d25306ebf9afbea1484e5c3bdd037dd35
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Thu Apr 6 20:10:07 2017 -0500
+
+    edited about.html to correct #commits
+
+commit bb7037cf899bb276f0a686ca66fa3a9f593bb388
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Thu Apr 6 20:05:30 2017 -0500
+
+    edited to Reviews.html to get rid of pullover functionality
+
+commit 7db33fb7a2e69fbbb171c60eab8475fd98bf1bfc
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Thu Apr 6 19:32:55 2017 -0500
+
+    edited broken link to Paul Edgars photo
+
+commit 917102049da58da5a04820f4243aab7f30b512e0
+Author: Ross Miglin <rmiglin@cs.utexas.edu>
+Date:   Thu Apr 6 19:29:04 2017 -0500
+
+    corrected Reviews.html to contain Ulele and The Capital Grille
+
+commit 5e2c810c6656584f2614c8d7dc4f905df17eae49
+Author: Daniel Hauser <DanielHauser77@gmail.com>
+Date:   Thu Apr 6 19:02:48 2017 -0500
+
+    log update
+
 commit 007190a7aa65d5a5136440dff9acbac005ab6574
 Author: Daniel Hauser <DanielHauser77@gmail.com>
 Date:   Thu Apr 6 19:02:13 2017 -0500
