@@ -32,8 +32,8 @@ def reviewers():
 def about():
 	return render_template('About.html')
 
-@app.route('/vertskebap')
-def vertskebap():
+@app.route('/review/1')
+def review_1():
 
 	restaurant = { 'name': 'VertsKebap' }
 	reviewer = {
@@ -46,9 +46,38 @@ def vertskebap():
 		'dress':'Casual',
 		'would_recommend':'Yes'
 	}
-	images = {'static/img/vertspic.jpg', 'static/img/verts2.jpg', 'static/img/verts3.jpg'}
+	images = {
+		1:'../static/img/vertspic.jpg',
+		2:'../static/img/verts2.jpg',
+		3:'../static/img/verts3.jpg'
+		}
 
-	return render_template('Restaurant.html', restaurant = restaurant, reviewer = reviewer, images = images)
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
+@app.route('/restaurants/vertskebap')
+def vertskebap():
+	restaurant = {
+	'name': 'VertsKebap',
+	'rating': 4,
+	'image':'../static/img/verts.jpg',
+	'cuisine':'Mediterranean',
+	'price': '$',
+	'address':'1801 E 51st St #300, Austin, TX 78723',
+	'phone':'(512) 373-8736',
+	'url':'http://eatverts.com'
+	}
+	review = {
+		'rating':4,
+		'text':'Their Kebaps are really good and healthy. This place has changed a lot since I first started UT. Still my go-to place when I need something fast, but I have been a little disappointed in the price increases.',
+		'signature':'John, 02/01/2017',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/reviewer/johnanderson')
+def john_anderson():
+	reviewer = {'name':'John Anderson', 'date_joined':'April 1, 2013', 'origin':'Germany','location':'Austin, TX', 'fave_restaurant':'VertsKebap', 'bio':'I\'m a food lover and computer geek. In my free time, I like to play basketball with friends. I recieved my undergraduate degree from Techincal University of Munich and my PhD in Computer Science from UT Austin. I work as a senior data scientist at IBM.', 'img':'../static/img/johnpic.jpg'}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
 
 if __name__ == '__main__':
 	app.run() # Run application
