@@ -1,80 +1,111 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <!-- Round About Style -->
-    <link rel="stylesheet" href="../static/css/pillar.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- DataTable -->
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
-
-    <!-- Navbar styles -->
-    <link rel="stylesheet" href="../static/css/navbar.css">
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
 
-
-    <!-- Import custom stylesheet -->
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../static/css/materialize.min.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="../static/css/8bitbyte.css"/>
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:600" rel="stylesheet">
-    <!-- Single-Page styles -->
-	<link rel="stylesheet" href="../static/css/containers.css">
-    <link rel="stylesheet" href="../static/css/single_page.css">
 
-    <title>{{ restaurant.name }}</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../static/js/materialize.min.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
 
-  <body>
-      <span>
-          <div class="page-header">
-              <h1>8BitBites</h1>
-          </div>
-      </span>
+	<script type="text/javascript">
+    $(document).ready(function(){
+          $('.parallax').parallax();
+        });
+    </script>
 
-  <ul class="nav nav-tabs">
-      <li role="presentation"><a href= {{ url_for('index') }}>Home</a></li>
-      <li role="presentation"><a href="Restaurants.html" class="active">Restaurants</a></li>
-      <li role="presentation"><a href={{ url_for('reviews') }}>Reviews</a></li>
-      <li role="presentation"><a href={{ url_for('reviewers') }}>Reviewers</a></li>
-      <li role="presentation"><a href={{ url_for('about') }}>About</a></li>
-  </ul>
+</head>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-2 col-md-2 offset-lg-1 offset-md-1">
-			    <p><b>{{ restaurant.name }}</b><p>
-				<img src= {{ images.1 }}>
-				<img src= {{ images.2 }}>
-				<img src= {{ images.3 }}>
-			</div>
-			<div class="col-lg-8 col-md-8">
-				<h2><b>Review by {{ reviewer.name }}</b></h2>
-				<p><span class="data-type">Full Review:</span> {{ reviewer.review }}</p>
-				<p><span class="data-type">Service:</span> {{ reviewer.service_rating }}</p>
-				<p><span class="data-type">Atmosphere:</span> {{ reviewer.atmosphere_rating }}</p>
-				<p><span class="data-type">Value:</span> {{ reviewer.value_rating }}</p>
-				<p><span class="data-type">Food Quality:</span> {{ reviewer.food_rating }}</p>
-				<p><span class="data-type">Dress:</span> {{ reviewer.dress }}</p>
-                <p><span class="data-type">Would Recommend:</span> {{ reviewer.would_recommend }}</p>
-				</div>
-		</div>
-	   <div class="table-container">
 
+<body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo"><img src="../static/img/logo.png"/></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href={{ url_for('restaurants') }}>Restaurants</a></li>
+          <li><a href={{ url_for('reviews') }}>Reviews</a></li>
+          <li><a href={{ url_for('reviewers') }}>Reviewers</a></li>
+		  <li><a href={{ url_for('about') }}>About</a></li>
+        </ul>
       </div>
-	</div>
-  </body>
+    </nav>
+
+    <div class="container">
+        <header>
+            <div class="title-wrapper">
+                {{ restaurant.name }}
+            </div>
+            <div class="rating">
+                {% for star in range(restaurant.rating) %}
+                    <i class="medium material-icons">stars</i>
+                {% endfor %}
+            </div>
+        </header>
+
+        <main>
+            <section class="image">
+                <img src={{ restaurant.image }} class="circle responsive-img"/>
+            </section>
+
+            <section class="details">
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">local_dining</i>About</div>
+                        <div class="collapsible-body"><span>{{ restaurant.cuisine }}, {{ restaurant.price }}</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">place</i>Contact Us</div>
+                        <div class="collapsible-body">
+                            <span>{{ restaurant.address }}</span><br/>
+                            <iframe width="200" height="160" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCss3j5LQeY469OfJOKC3Iu86xvAZwtxis&q={{ restaurant.address }}" allowfullscreen></iframe><br/>
+                            <span>{{ restaurant.phone }}</span><br/>
+                            <span><a href={{ restaurant.url }}>Visit their website</a></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="material-icons">whatshot</i>Reviews</div>
+                            <div class="collapsible-body">
+                                <div class="collapsible-review-header">
+                                    <span>Most Recent Review</span>
+                                    <div class="rating">
+                                        {% for i in range(review.rating) %}
+                                            <i class="small material-icons">stars</i>
+                                        {% endfor %}
+                                    </div>
+                                <div class="row valign-wrapper">
+                                    <div class="col s4 m4">
+                                        <img class="circle responsive-img" src="../static/img/johnpic.jpg"/>
+                                        <div class="review-signature">
+                                            <span>{{ review.signature }}</span>
+                                        </div>
+                                    </div>
+                                    <div class="col s8 m8">
+                                        <p class="review-text-collapsible">{{ review.text }}
+                                        </p><br>
+                                        <div class="all-reviews"><a href="Reviews-Verts.html">See all reviews</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+            </section>
+
+        </main>
+
+    </div>
+
+
+
+</body>
+
+
 </html>
