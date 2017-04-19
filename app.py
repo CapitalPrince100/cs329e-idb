@@ -97,6 +97,27 @@ def review_3():
 
 	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
 
+@app.route('/review/4')
+def review_4():
+	restaurant = {'name': 'Tulio'}
+	reviewer = {
+		'name': 'Tyler Durden',
+		'review': '"Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occasion. The ambience was extremely conducive for setting an intimate mood; the soft music that plays in the background complements the dimly lit interior perfectly. Our servers were also excellent – they executed our orders perfectly without fail and even gave us a complimentary dessert at the end of dinner! Can’t wait to come back." - 3/3/2016',
+		'service_rating': '5/5',
+		'atmosphere_rating': '5/5',
+		'value_rating': '3/5',
+		'food_rating': '5/5',
+		'dress': 'Formal',
+		'would_recommend': 'Yes'
+	}
+	images = {
+		1: '../static/img/tulio1.jpg',
+		2: '../static/img/tulio2.jpg',
+		3: '../static/img/tulio3.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+	
 @app.route('/restaurants/vertskebap')
 def vertskebap():
 	restaurant = {
@@ -137,7 +158,7 @@ def wildwoodkitchen():
 	}
 	return render_template('Restaurant.html', restaurant = restaurant, review = review)
 
-@app.route('/restaurants/Ulele')
+@app.route('/restaurants/ulele')
 def ulele():
 	restaurant = {
 	'name': 'Ulele',
@@ -157,6 +178,26 @@ def ulele():
 	}
 	return render_template('Restaurant.html', restaurant = restaurant, review = review)	
 
+@app.route('/restaurants/tulio')
+def tulio():
+	restaurant = {
+	'name': 'Tulio',
+	'rating': 5,
+	'image':'../static/img/tulio3.jpg',
+	'circlepic':'../static/img/tylerdurden.jpg',
+	'cuisine':'Italian cuisine',
+	'price': '$$$',
+	'address':'1100 5th Ave Seattle, WA 98101 ',
+	'phone':'(206) 624-5500',
+	'url':'http://tulio.com'
+	}
+	review = {
+		'rating':5,
+		'text':'Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occasion. The ambience was extremely conducive for setting an intimate mood; the soft music that plays in the background complements the dimly lit interior perfectly. Our servers were also excellent – they executed our orders perfectly without fail and even gave us a complimentary dessert at the end of dinner! Can’t wait to come back.',
+		'signature':'Tyler, 03/03/2016',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)	
+	
 @app.route('/reviewer/johnanderson')
 def john_anderson():
 	reviewer = {'name':'John Anderson', 'date_joined':'April 1, 2013', 'origin':'Germany','location':'Austin, TX', 'fave_restaurant':'VertsKebap', 'bio':'I\'m a food lover and computer geek. In my free time, I like to play basketball with friends. I recieved my undergraduate degree from Techincal University of Munich and my PhD in Computer Science from UT Austin. I work as a senior data scientist at IBM.', 'img':'../static/img/johnpic.jpg'}
@@ -172,6 +213,12 @@ def james_connelly():
 @app.route('/reviewer/gabriellaromero')
 def gabriella_romero():
 	reviewer = {'name':'Gabriella Romero', 'date_joined':'September 8, 2013', 'origin':'Brazil','location':'Tampa Bay, FL', 'fave_restaurant':'Fudruckers, Applebee\'s', 'bio':'"A macaron by any other name would taste just as sweet" A well prepared, diverse meal is poerty. Each course should be a carefully thought out masterpiece to be cherished and savored. I\'m on a quest to find these master artists and to experience their masterpieces!', 'img':'../static/img/gabriellaromero.jpg'}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
+@app.route('/reviewer/tylerdurden')
+def tyler_durden():
+	reviewer = {'name':'Tyler Durden', 'date_joined':'July 25, 2015', 'origin':'USA','location':'Seattle, WA', 'fave_restaurant':'Tulio', 'bio':'I am a freelance writer based in Seattle. When I\'m not writing, I love taking long walks along the beach, sitting in coffee shops, and enjoying fine wine. My first book inspired an award winning movie, so I am doing quite well. I love to explore the Seattle outdoors.', 'img':'../static/img/tylerdurden.jpg'}
 
 	return render_template('Reviewer.html', reviewer = reviewer)	
 	
