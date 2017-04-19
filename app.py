@@ -32,6 +32,8 @@ def reviewers():
 def about():
 	return render_template('About.html')
 
+#REVIEWS
+
 @app.route('/review/1')
 def review_1():
 
@@ -117,7 +119,51 @@ def review_4():
 	}
 
 	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
-	
+
+@app.route('/review/5')
+def review_5():
+	restaurant = {'name': 'The Capital Grill'}
+	reviewer = {
+		'name': 'Paul Edgars',
+		'review': '"I ordered the tuna tartare with avocado, mango and sriracha. Expecting a very fine meal, I ordered a fine glass of Pinot Grigio to go along with (what I *expected* to be) the culinary masterpiece that followed. Three words for the experience. Un. Be. Lievable. First the waitress tripped and spilled the wine bottle on my three piece suit. Proceeded to apologize and offer me my entire meal for free. Since I\'d already planned to go to the dry cleaners, I thought I\'d calmly wait it out and eat the free meal. Not worth it! The tuna tartare was TERRIBLY tart and the mango was well overripe. And one would think Sriracha would be the same restaurant to restaurant, but apparently NOT. Horribly tangy and watery. Overall *VERY* poor experience! The only thing redeeming was the cheesy bread appetizers (which I MUST find the recipe for). " - 4/01/2017',
+		'service_rating': '2/5',
+		'atmosphere_rating': '5/5',
+		'value_rating': '1/5',
+		'food_rating': '1/5',
+		'dress': 'Formal',
+		'would_recommend': 'No'
+	}
+	images = {
+		1: '../static/img/capitalgrille1.jpg',
+		2: '../static/img/capitalgrille2.jpg',
+		3: '../static/img/capitalgrille3.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
+@app.route('/review/6')
+def review_6():
+	restaurant = {'name': 'Snake River Grill'}
+	reviewer = {
+		'name': 'Madison Monet',
+		'review': '"Let me just start by saying I consider myself a duck fry connoisseur. Now when I say Snake River Grill has some damn good duck fries I mean it. They are to die for! The service was great yadda yadda world class blah blah. The duck fries were the bees knees that\'s all that mattered. Go eat their duck fries." - 1/4/2014',
+		'service_rating': '5/5',
+		'atmosphere_rating': '4/5',
+		'value_rating': '4/5',
+		'food_rating': '5/5',
+		'dress': 'Casual',
+		'would_recommend': 'Yes'
+	}
+	images = {
+		1: '../static/img/snakerivergrill3.jpg',
+		2: '../static/img/snakerivergrill4.jpg',
+		3: '../static/img/snakerivergrill5.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
+#RESTAURANTS
+
 @app.route('/restaurants/vertskebap')
 def vertskebap():
 	restaurant = {
@@ -173,7 +219,7 @@ def ulele():
 	}
 	review = {
 		'rating':5,
-		'text':'I\'ll admit, I went into Ulele expecting great things. I\'d heard my ex-husband and his brand new wife had them cater his new wedding (with his brand new wife). I made reservations for 1 at Ulele 2 weeks in advance because I have a lot of free time in my single life, and I\'m able to think far in advance without a man on my mind. When the evening rolled around, I donned my new bonnet which I regained custody of, and took a taxi to the restaurant. I was seated at a table close to the animatronic singing pelican and placed my napkin in my lap. When the waitress came around I asked for: "1 Hawaiian Punch" because I only need onre drink for one person, but I was thoroughly dismayed that a fine restaurant like Ulele\'s didnt\' have Hawaiian Punch. Fudrucker\'s wouldn\'t make this mistake!!! However, I rallied and ordered a glass of iced tea in its place. Then, I was starting to feel liberated and free all by my lonesome, so I ordered a bowl of ice cream for dinner. Only 1 bowl because I only need 1 for 1 person eating. Me. But I got overzealous and started ordering ice cream hand over fist. More MORE MORE!!!! My tab came out to well over a hundred dollars, but since I\'m not spending money on my husband anymore, this wasn\'t a problem. I would strongly reccomend this specific experience to all those lonely souls out there.',
+		'text':'I\'ll admit, I went into Ulele expecting great things. I\'d heard my ex-husband and his brand new wife had them cater his new wedding (with his brand new wife). I made reservations for 1 at Ulele 2 weeks in advance because I have a lot of free time in my single life, and I\'m able to think far in advance without a man on my mind. When the evening rolled around, I donned my new bonnet which I regained custody of, and took a taxi to the restaurant. I was seated at a table close to the animatronic singing pelican and placed my napkin in my lap. When the waitress came around I asked for: "1 Hawaiian Punch" because I only need onre drink for one person, but I was thoroughly dismayed that a fine restaurant like Ulele\'s didn\'t have Hawaiian Punch. Fudrucker\'s wouldn\'t make this mistake!!! However, I rallied and ordered a glass of iced tea in its place. Then, I was starting to feel liberated and free all by my lonesome, so I ordered a bowl of ice cream for dinner. Only 1 bowl because I only need 1 for 1 person eating. Me. But I got overzealous and started ordering ice cream hand over fist. More MORE MORE!!!! My tab came out to well over a hundred dollars, but since I\'m not spending money on my husband anymore, this wasn\'t a problem. I would strongly recommend this specific experience to all those lonely souls out there.',
 		'signature':'Gabriella, 02/14/2017',
 	}
 	return render_template('Restaurant.html', restaurant = restaurant, review = review)	
@@ -196,11 +242,58 @@ def tulio():
 		'text':'Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occasion. The ambience was extremely conducive for setting an intimate mood; the soft music that plays in the background complements the dimly lit interior perfectly. Our servers were also excellent - they executed our orders perfectly without fail and even gave us a complimentary dessert at the end of dinner! Can\'t wait to come back.',
 		'signature':'Tyler, 03/03/2016',
 	}
-	return render_template('Restaurant.html', restaurant = restaurant, review = review)	
-	
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/thecapitalgrill')
+def thecapitalgrill():
+	restaurant = {
+	'name': 'The Capital Grill',
+	'rating': 1,
+	'image':'../static/img/capitalgrille2.jpg',
+	'circlepic':'../static/img/pauledgars.jpg',
+	'cuisine':'American, Steakhouse',
+	'price': '$$$',
+	'address':'801 Hennepin Ave, Minneapolis, MN 55402',
+	'phone':'(612) 692-9000',
+	'url':'http://thecapitalgrille.com/home'
+	}
+	review = {
+		'rating':1,
+		'text':'"I ordered the tuna tartare with avocado, mango and sriracha. Expecting a very fine meal, I ordered a fine glass of Pinot Grigio to go along with (what I *expected* to be) the culinary masterpiece that followed. Three words for the experience. Un. Be. Lievable. First the waitress tripped and spilled the wine bottle on my three piece suit. Proceeded to apologize and offer me my entire meal for free. Since I\'d already planned to go to the dry cleaners, I thought I\'d calmly wait it out and eat the free meal. Not worth it! The tuna tartare was TERRIBLY tart and the mango was well overripe. And one would think Sriracha would be the same restaurant to restaurant, but apparently NOT. Horribly tangy and watery. Overall *VERY* poor experience! The only thing redeeming was the cheesy bread appetizers (which I MUST find the recipe for). "',
+		'signature':'Paul, 04/01/2017',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/snakerivergrill')
+def snakerivergrill():
+	restaurant = {
+	'name': 'Snake River Grill',
+	'rating': 1,
+	'image':'../static/img/capitalgrille2.jpg',
+	'circlepic':'../static/img/pauledgars.jpg',
+	'cuisine':'American Fare',
+	'price': '$$$',
+	'address':'84 East Broadway Jackson, WY',
+	'phone':'(307) 733 0557',
+	'url':'http://thecapitalgrille.com/home'
+	}
+	review = {
+		'rating':1,
+		'text':'"Let me just start by saying I consider myself a duck fry connoisseur. Now when I say Snake River Grill has some damn good duck fries I mean it. They are to die for! The service was great yadda yadda world class blah blah. The duck fries were the bees knees that\'s all that mattered. Go eat their duck fries."',
+		'signature':'Madison, 1/4/2014',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+#REVIEWERS
+
 @app.route('/reviewer/johnanderson')
 def john_anderson():
-	reviewer = {'name':'John Anderson', 'date_joined':'April 1, 2013', 'origin':'Germany','location':'Austin, TX', 'fave_restaurant':'VertsKebap', 'bio':'I\'m a food lover and computer geek. In my free time, I like to play basketball with friends. I recieved my undergraduate degree from Techincal University of Munich and my PhD in Computer Science from UT Austin. I work as a senior data scientist at IBM.', 'img':'../static/img/johnpic.jpg'}
+	reviewer = {'name':'John Anderson',
+				'date_joined':'April 1, 2013',
+				'origin':'Germany','location':'Austin, TX',
+				'fave_restaurant':'VertsKebap',
+				'bio':'I\'m a food lover and computer geek. In my free time, I like to play basketball with friends. I recieved my undergraduate degree from Techincal University of Munich and my PhD in Computer Science from UT Austin. I work as a senior data scientist at IBM.', 'img':'../static/img/johnpic.jpg'
+				}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
 
@@ -221,6 +314,18 @@ def tyler_durden():
 	reviewer = {'name':'Tyler Durden', 'date_joined':'July 25, 2015', 'origin':'USA','location':'Seattle, WA', 'fave_restaurant':'Tulio', 'bio':'I am a freelance writer based in Seattle. When I\'m not writing, I love taking long walks along the beach, sitting in coffee shops, and enjoying fine wine. My first book inspired an award winning movie, so I am doing quite well. I love to explore the Seattle outdoors.', 'img':'../static/img/durdenpic.jpg'}
 
 	return render_template('Reviewer.html', reviewer = reviewer)	
-	
+
+@app.route('/reviewer/pauledgars')
+def paul_edgars():
+	reviewer = {'name':'Paul Edgars', 'date_joined':'June 3, 2015', 'origin':'USA','location':'Minneapolis, MN', 'fave_restaurant':'La Finca, Hasta La Pasta', 'bio':'Food, food, food. Three meals a day just doesn\'t cut it for me. Looking to experience all the riches the culinary world has to offer while meeting other enthusiasts along the way.', 'img':'../static/img/pauledgars.jpg'}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
+@app.route('/reviewer/madisonmonet')
+def madison_monet():
+	reviewer = {'name':'Madison Monet', 'date_joined':'March 15, 2012', 'origin':'USA','location':'Jackson, WY', 'fave_restaurant':'Snake River Grill', 'bio':'I like to consider myself a small time duck fry critic. Up here in Wyoming, it might not seem to be very very exciting to focus in on the quality duck fries this town provides, but I love this town and I\'m set on giving my opinion for every single place that serves duck fries.', 'img':'../static/img/madisonpic.jpg'}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
 if __name__ == '__main__':
 	app.run() # Run application
