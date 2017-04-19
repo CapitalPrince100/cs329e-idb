@@ -51,7 +51,10 @@ def review_1():
 		2:'../static/img/verts2.jpg',
 		3:'../static/img/verts3.jpg'
 		}
+		
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
 
+	
 @app.route('/review/2')
 def review_2():
 	restaurant = {'name': 'WildwoodKitchen'}
@@ -69,6 +72,27 @@ def review_2():
 		1: '../static/img/wildwood1.jpg',
 		2: '../static/img/wildwood2.jpg',
 		3: '../static/img/wildwood3.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+	
+@app.route('/review/3')
+def review_3():
+	restaurant = {'name': 'Ulele'}
+	reviewer = {
+		'name': 'Gabriella Romero',
+		'review': '"I\'ll admit, I went into Ulele expecting great things. I\'d heard my ex-husband and his brand new wife had them cater his new wedding (with his brand new wife). I made reservations for 1 at Ulele 2 weeks in advance because I have a lot of free time in my single life, and I\'m able to think far in advance without a man on my mind. When the evening rolled around, I donned my new bonnet which I regained custody of, and took a taxi to the restaurant. I was seated at a table close to the animatronic singing pelican and placed my napkin in my lap. When the waitress came around I asked for: "1 Hawaiian Punch" because I only need onre drink for one person, but I was thoroughly dismayed that a fine restaurant like Ulele\'s didnt\' have Hawaiian Punch. Fudrucker\'s wouldn\'t make this mistake!!! However, I rallied and ordered a glass of iced tea in its place. Then, I was starting to feel liberated and free all by my lonesome, so I ordered a bowl of ice cream for dinner. Only 1 bowl because I only need 1 for 1 person eating. Me. But I got overzealous and started ordering ice cream hand over fist. More MORE MORE!!!! My tab came out to well over a hundred dollars, but since I\'m not spending money on my husband anymore, this wasn\'t a problem. I would strongly reccomend this specific experience to all those lonely souls out there." - 2/14/2017',
+		'service_rating': '5/5',
+		'atmosphere_rating': '5/5',
+		'value_rating': '5/5',
+		'food_rating': '5/5',
+		'dress': 'Snappy Casual',
+		'would_recommend': 'Yes'
+	}
+	images = {
+		1: '../static/img/ulele1.jpg',
+		2: '../static/img/ulele2.jpg',
+		3: '../static/img/ulele3.jpg'
 	}
 
 	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
@@ -107,11 +131,31 @@ def wildwoodkitchen():
 	'url':'http://wildwoodkitchensb.com'
 	}
 	review = {
-		'rating':4,
+		'rating':3,
 		'text':'Before I start harping on the quality of the food, I will applaud Wildwood for having tremendous customer service. My waiter Sarah was always quick and responsive to my requests and showed enthusiasm and genuine concern for my experience at the restaurant. But beyond that, I will say, Wildwood is nothing more than subpar barbeque.',
 		'signature':'James, 04/15/2016',
 	}
 	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/Ulele')
+def ulele():
+	restaurant = {
+	'name': 'Ulele',
+	'rating': 5,
+	'image':'../static/img/ulele3.jpg',
+	'circlepic':'../static/img/gabriellaromero.jpg',
+	'cuisine':'Native American',
+	'price': '$$$',
+	'address':'1810 North Highland Avenue, Tampa Bay, FL 33602',
+	'phone':'(813) 999-4952',
+	'url':'http://ulele.com'
+	}
+	review = {
+		'rating':5,
+		'text':'I\'ll admit, I went into Ulele expecting great things. I\'d heard my ex-husband and his brand new wife had them cater his new wedding (with his brand new wife). I made reservations for 1 at Ulele 2 weeks in advance because I have a lot of free time in my single life, and I\'m able to think far in advance without a man on my mind. When the evening rolled around, I donned my new bonnet which I regained custody of, and took a taxi to the restaurant. I was seated at a table close to the animatronic singing pelican and placed my napkin in my lap. When the waitress came around I asked for: "1 Hawaiian Punch" because I only need onre drink for one person, but I was thoroughly dismayed that a fine restaurant like Ulele\'s didnt\' have Hawaiian Punch. Fudrucker\'s wouldn\'t make this mistake!!! However, I rallied and ordered a glass of iced tea in its place. Then, I was starting to feel liberated and free all by my lonesome, so I ordered a bowl of ice cream for dinner. Only 1 bowl because I only need 1 for 1 person eating. Me. But I got overzealous and started ordering ice cream hand over fist. More MORE MORE!!!! My tab came out to well over a hundred dollars, but since I\'m not spending money on my husband anymore, this wasn\'t a problem. I would strongly reccomend this specific experience to all those lonely souls out there.',
+		'signature':'Gabriella, 02/14/2017',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)	
 
 @app.route('/reviewer/johnanderson')
 def john_anderson():
@@ -125,5 +169,11 @@ def james_connelly():
 
 	return render_template('Reviewer.html', reviewer = reviewer)
 
+@app.route('/reviewer/gabriellaromero')
+def gabriella_romero():
+	reviewer = {'name':'Gabriella Romero', 'date_joined':'September 8, 2013', 'origin':'Brazil','location':'Tampa Bay, FL', 'fave_restaurant':'Fudruckers, Applebee\'s', 'bio':'"A macaron by any other name would taste just as sweet" A well prepared, diverse meal is poerty. Each course should be a carefully thought out masterpiece to be cherished and savored. I\'m on a quest to find these master artists and to experience their masterpieces!', 'img':'../static/img/gabriellaromero.jpg'}
+
+	return render_template('Reviewer.html', reviewer = reviewer)	
+	
 if __name__ == '__main__':
 	app.run() # Run application
