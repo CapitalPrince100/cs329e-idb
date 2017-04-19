@@ -162,6 +162,132 @@ def review_6():
 
 	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
 
+@app.route('/review/7')
+def review_7():
+	restaurant = {'name': 'Slymans'}
+	reviewer = {
+		'name': 'Alex Buff',
+		'review': '"I\'m a regular at Slyman\'s. I know the owner. The owner knows me. I walk in, give him a nod and he starts cooking my usual. Thats how a resuraunt should be run. No talking, no shenanigans.The food is great what else can I say. Their corned beef is good." - 5/4/2011',
+		'service_rating': 'who cares',
+		'atmosphere_rating': 'good enough',
+		'value_rating': 'meat is value',
+		'food_rating': 'quality',
+		'dress': 'wear clothes',
+		'would_recommend': 'do what you want'
+	}
+	images = {
+		1: '../static/img/slymans1.jpg',
+		2: '../static/img/slymans2.jpg',
+		3: '../static/img/slymans3.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
+@app.route('/review/8')
+def review_8():
+	restaurant = {'name': 'Scala\'s Bistro'}
+	reviewer = {
+		'name': 'Josh Davis',
+		'review': '"The fog of time probably distorts my memory of Scala\'s somewhat but the standard of quality is down quite a bit and it\'s evident in the service, menu, and food. It\'s unfortunate but it is what it is - just another okay restaurant serving passable food to tourists. It was once so much better." - 3/3/2017',
+		'service_rating': '3/5',
+		'atmosphere_rating': '2/5',
+		'value_rating': '2/5',
+		'food_rating': '2/5',
+		'dress': 'Casual',
+		'would_recommend': 'No'
+	}
+	images = {
+		1: '../static/img/scalasbistro.jpg',
+		2: '../static/img/scalasbistro2.jpg',
+		3: '../static/img/scalasbistro3.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
+@app.route('/review/9')
+def review_9():
+	restaurant = {'name': 'Park\'s Barbeque'}
+	reviewer = {
+		'name': 'Young-Joun Kim',
+		'review': '"On a blisteringly cold day in LA, several bros and I stepped into Park\'s for some kalbi and soondobu jjigae to warm the soul. Love the meat here - it\'s always so fresh and juicy. We ordered 4 platters of kalbi, 3 platters of bulgolgi, 3 platters of samgyobsal (pork belly), 4 orders of NY strip steak, 2 orders of grilled squid, and 4 bowls of soondobu jjigae. And the banchan here are soooo good!! Especially love the kimchi - Park\'s ferments their kimchi so it\'s pretty sour when you eat it, which is what I love. But, some of my non-Korean friends don\'t love it as much as I do, which is cool. My only request for Park\'s is to serve their food faster next time. They do use a classic KBBQ stalling technique to try to save some cash." - 12/28/2014',
+		'service_rating': '3/5',
+		'atmosphere_rating': '4/5',
+		'value_rating': '5/5',
+		'food_rating': '5/5',
+		'dress': 'Casual',
+		'would_recommend': 'Yes'
+	}
+	images = {
+		1: '../static/img/parksbbq1.jpg',
+		2: '../static/img/parksbbq2.jpg',
+		3: '../static/img/parksbbq3.jpeg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
+@app.route('/review/10')
+def review_10():
+	restaurant = {'name': 'La Contenta'}
+	reviewer = {
+		'name': 'Amy Yang',
+		'review': '"Beef wasn\'t well cooked...way too chewy and unseasoned. Probably wouldn\'t return again. But everything else wasn\'t bad...I will say, for vegetarians, it does have a redeeming factor: they do have a temporary buy-one-get-one deal for vegetarian tacos during certain hours. So perhaps if you\'re looking for a cheap, vegetarian meal in NYC for you and a friend...maybe you can stop by here. Just don\'t get the beef." - 10/22/2016',
+		'service_rating': '4/5',
+		'atmosphere_rating': '4/5',
+		'value_rating': '1/5',
+		'food_rating': '2/5',
+		'dress': 'Casual',
+		'would_recommend': 'No'
+	}
+	images = {
+		1: '../static/img/la-contenta-interior.jpg',
+		2: '../static/img/la-contenta-food-2.jpg',
+		3: '../static/img/la-contenta-food-1.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
+@app.route('/review/11')
+def review_11():
+	restaurant = {'name': 'El Taco Riendo'}
+	reviewer = {
+		'name': 'Sally Chen',
+		'review': '"Everything on El Taco Riendo\'s menu is incredible. I\'ve ordered multiple variations of their taco trio, ranging from chicken to brisket to pork to tofu tacos - they have it all. Anything you want in a taco, they can make for you. I love the chill atmosphere of the restaurant. It\'s a great place to kick it with friends on the weekend; they also have an amazing drink selection. I\'d recommend the house sangria - but don\'t have more than two because they\'re quite strong :) I\'d highly recommend this to anyone who is taco obsessed like me!" - 01/15/2017',
+		'service_rating': '4/5',
+		'atmosphere_rating': '5/5',
+		'value_rating': '5/5',
+		'food_rating': '5/5',
+		'dress': 'Casual',
+		'would_recommend': 'Yes'
+	}
+	images = {
+		1: '../static/img/eltacoriendo1.jpg',
+		2: '../static/img/eltacoriendo2.jpg',
+		3: '../static/img/eltacoriendo3.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
+@app.route('/review/12')
+def review_12():
+	restaurant = {'name': 'Brasserie Les Halles'}
+	reviewer = {
+		'name': 'Robert Evremonde',
+		'review': '"This is Chef Anthony Bourdain\'s restaurant. This is a fantastic restaurant, truly superb. The wine pairing is well thought out and a true delight. I am thankful that the oysters here at Les Halles remind me of the freshly shucked oysters I grew up eating in France. The bread here is also great, very fresh and aromatic -- all in all, this restaurant really reminds me of the famous Les Halles in Paris!" - 3/30/2017',
+		'service_rating': '5/5',
+		'atmosphere_rating': '5/5',
+		'value_rating': '5/5',
+		'food_rating': '5/5',
+		'dress': 'Classy',
+		'would_recommend': 'Yes'
+	}
+	images = {
+		1: '../static/img/leshallespic.jpg',
+		2: '../static/img/leshalles1.jpg',
+		3: '../static/img/leshalles2.jpg'
+	}
+
+	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
+
 #RESTAURANTS
 
 @app.route('/restaurants/vertskebap')
@@ -268,19 +394,139 @@ def thecapitalgrill():
 def snakerivergrill():
 	restaurant = {
 	'name': 'Snake River Grill',
-	'rating': 1,
-	'image':'../static/img/capitalgrille2.jpg',
-	'circlepic':'../static/img/pauledgars.jpg',
+	'rating': 4,
+	'image':'../static/img/snakerivergrill2.jpg',
+	'circlepic':'../static/img/madisonpic.jpg',
 	'cuisine':'American Fare',
 	'price': '$$$',
 	'address':'84 East Broadway Jackson, WY',
 	'phone':'(307) 733 0557',
-	'url':'http://thecapitalgrille.com/home'
+	'url':'http://snakerivergrill.com/home'
 	}
 	review = {
-		'rating':1,
+		'rating':4,
 		'text':'"Let me just start by saying I consider myself a duck fry connoisseur. Now when I say Snake River Grill has some damn good duck fries I mean it. They are to die for! The service was great yadda yadda world class blah blah. The duck fries were the bees knees that\'s all that mattered. Go eat their duck fries."',
 		'signature':'Madison, 1/4/2014',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/slymans')
+def slymans():
+	restaurant = {
+	'name': 'Slyman\'s',
+	'rating': 5,
+	'image':'../static/img/slymans1.jpg',
+	'circlepic':'../static/img/AlexBuffpic.jpg',
+	'cuisine':'Deli',
+	'price': '$$',
+	'address':'3106 St Clair Ave NE, Cleveland, OH 44114',
+	'phone':'(216) 621-3760',
+	'url':'http://slymans.com'
+	}
+	review = {
+		'rating':5,
+		'text':'I\'m a regular at Slyman\'s. I know the owner. The owner knows me. I walk in, give him a nod and he starts cooking my usual. Thats how a resuraunt should be run. No talking, no shenanigans.The food is great what else can I say. Their corned beef is good.',
+		'signature':'Alex, 05/04/2011',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/scalasbistro')
+def scalasbistro():
+	restaurant = {
+	'name': 'Scala\'s Bistro',
+	'rating': 3,
+	'image':'../static/img/scalasbistro.jpg',
+	'circlepic':'../static/img/joshD.jpg',
+	'cuisine':'Italian',
+	'price': '$$$',
+	'address':'432 Powell St San Francisco, CA 94102',
+	'phone':'(415) 395-8555',
+	'url':'http://scalasbistro.com'
+	}
+	review = {
+		'rating':3,
+		'text':'The fog of time probably distorts my memory of Scala\'s somewhat but the standard of quality is down quite a bit and it\'s evident in the service, menu, and food. It\'s unfortunate but it is what it is - just another okay restaurant serving passable food to tourists. It was once so much better.',
+		'signature':'Josh, 3/3/2017',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/parksbarbeque')
+def parksbarbeque():
+	restaurant = {
+	'name': 'Park\'s Barbeque',
+	'rating': 5,
+	'image':'../static/img/parksbbq1.jpg',
+	'circlepic':'../static/img/youngjoun.jpg',
+	'cuisine':'Korean Barbeque',
+	'price': '$$',
+	'address':'955 S. Vermont Ave, Los Angeles, CA 90006',
+	'phone':'(213) 380-1717',
+	'url':'http://parksbbq.com'
+	}
+	review = {
+		'rating':5,
+		'text':'On a blisteringly cold day in LA, several bros and I stepped into Park\'s for some kalbi and soondobu jjigae to warm the soul. Love the meat here - it\'s always so fresh and juicy. We ordered 4 platters of kalbi, 3 platters of bulgolgi, 3 platters of samgyobsal (pork belly), 4 orders of NY strip steak, 2 orders of grilled squid, and 4 bowls of soondobu jjigae. And the banchan here are soooo good!! Especially love the kimchi - Park\'s ferments their kimchi so it\'s pretty sour when you eat it, which is what I love. But, some of my non-Korean friends don\'t love it as much as I do, which is cool. My only request for Park\'s is to serve their food faster next time. They do use a classic KBBQ stalling technique to try to save some cash.',
+		'signature':'Young-joun, 12/28/2014',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/lacontenta')
+def lacontenta():
+	restaurant = {
+	'name': 'La Contenta',
+	'rating': 2,
+	'image':'../static/img/la-contenta-interior.jpg',
+	'circlepic':'../static/img/amypic.jpg',
+	'cuisine':'Mexican Cuisine',
+	'price': '$$',
+	'address':'102 Norfolk St New York, NY 10002 ',
+	'phone':'(212) 432-4180',
+	'url':'http://lacontentanyc.com'
+	}
+	review = {
+		'rating':2,
+		'text':'Beef wasn\'t well cooked...way too chewy and unseasoned. Probably wouldn\'t return again. But everything else wasn\'t bad...I will say, for vegetarians, it does have a redeeming factor: they do have a temporary buy-one-get-one deal for vegetarian tacos during certain hours. So perhaps if you\'re looking for a cheap, vegetarian meal in NYC for you and a friend...maybe you can stop by here. Just don\'t get the beef.',
+		'signature':'Amy, 10/23/2011',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/eltacoriendo')
+def eltacoriendo():
+	restaurant = {
+	'name': 'El Taco Riendo',
+	'rating': 5,
+	'image':'../static/img/eltacoriendo3.jpg',
+	'circlepic':'../static/img/sallychen.jpg',
+	'cuisine':'Mexican Cuisine',
+	'price': '$',
+	'address':'2412 Central Ave NE Minneapolis, MN 55418',
+	'phone':'(612) 781-3000',
+	'url':'http://eltaco-riendo.com'
+	}
+	review = {
+		'rating':5,
+		'text':'Everything on El Taco Riendo\'s menu is incredible. I\'ve ordered multiple variations of their taco trio, ranging from chicken to brisket to pork to tofu tacos - they have it all. Anything you want in a taco, they can make for you. I love the chill atmosphere of the restaurant. It\'s a great place to kick it with friends on the weekend; they also have an amazing drink selection. I\'d recommend the house sangria - but don\'t have more than two because they\'re quite strong :) I\'d highly recommend this to anyone who is taco obsessed like me!',
+		'signature':'Sally, 01/15/2017',
+	}
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
+
+@app.route('/restaurants/brasserieleshalles')
+def brasserieleshalles():
+	restaurant = {
+	'name': 'Brasserie Les Halles',
+	'rating': 5,
+	'image':'../static/img/leshalles1.jpg',
+	'circlepic':'../static/img/robertpic.jpg',
+	'cuisine':'French Cuisine',
+	'price': '$$$',
+	'address':'15 John St, New York, NY 10038',
+	'phone':'(212) 285-8585',
+	'url':'http://leshalles.net'
+	}
+	review = {
+		'rating':5,
+		'text':'This is Chef Anthony Bourdain\'s restaurant. This is a fantastic restaurant, truly superb. The wine pairing is well thought out and a true delight. I am thankful that the oysters here at Les Halles remind me of the freshly shucked oysters I grew up eating in France. The bread here is also great, very fresh and aromatic -- all in all, this restaurant really reminds me of the famous Les Halles in Paris!',
+		'signature':'Robert, 03/30/2017',
 	}
 	return render_template('Restaurant.html', restaurant = restaurant, review = review)
 
@@ -324,6 +570,81 @@ def paul_edgars():
 @app.route('/reviewer/madisonmonet')
 def madison_monet():
 	reviewer = {'name':'Madison Monet', 'date_joined':'March 15, 2012', 'origin':'USA','location':'Jackson, WY', 'fave_restaurant':'Snake River Grill', 'bio':'I like to consider myself a small time duck fry critic. Up here in Wyoming, it might not seem to be very very exciting to focus in on the quality duck fries this town provides, but I love this town and I\'m set on giving my opinion for every single place that serves duck fries.', 'img':'../static/img/madisonpic.jpg'}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
+@app.route('/reviewer/alexbuff')
+def alex_buff():
+	reviewer = {'name':'Alex Buff',
+				'date_joined':'May 4, 2011',
+				'origin':'USA','location':'Cleveland, OH',
+				'fave_restaurant':'Slyman\'s',
+				'bio':' I\'m just a dude who likes meat. Don\'t connect with me. I don\'t use the internet.', 'img':'../static/img/AlexBuffpic.jpg'
+				}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
+@app.route('/reviewer/joshdavis')
+def josh_davis():
+	reviewer = {'name':'Josh Davis',
+				'date_joined':'June 4, 2013',
+				'origin':'Germany',
+				'location':'Santa Rosa, CA',
+				'fave_restaurant':'None',
+				'bio':' I am a business executive with a passion for cloud computing and data mining.', 'img':'../static/img/joshD.jpg'
+				}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
+@app.route('/reviewer/youngjounkim')
+def young_joun_kim():
+	reviewer = {'name':'Young-Joun Kim',
+				'date_joined':'October 12, 2014',
+				'origin':'South Korea',
+				'location':'Los Angeles, CA',
+				'fave_restaurant':'Park\'s Barbeque, KFC',
+				'bio':'Korean food is the best type of food. Nothing beats a soondobu jjigae when it\'s cold outside, samgyobsal when it\'s time to celebrate, or Korean Fried Chicken (KFC) when you\'ve been having a rough week. Ya feel?',
+				'img':'../static/img/youngjoun.jpg'
+				}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
+@app.route('/reviewer/amyyang')
+def amy_yang():
+	reviewer = {'name':'Amy Yang',
+				'date_joined':'October 23, 2011',
+				'origin':'China',
+				'location':'New York, NY',
+				'fave_restaurant':'Trump Grill, Le Bernardin',
+				'bio':'I am film major at New York University. I am passionate about adventure and fantasy films in particular. Someday I hope I can a be a successful director. I enjoy going to the gym, trying food from different countries, and connecting with people from different cultures.',
+				'img':'../static/img/amypic.jpg'
+				}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
+@app.route('/reviewer/sallychen')
+def sally_chen():
+	reviewer = {'name':'Sally Chen',
+				'date_joined':'June 6, 2016',
+				'origin':'Taiwan',
+				'location':'Minneapolis, MN',
+				'fave_restaurant':'Pappasito\'s Cantina, On the Border, small local taco joints',
+				'bio':' I love to eat Mexican food! In particular, I have a love for tacos. I believe a taco can be made out of any meal. So far my favorite tacos have been from local taco food trucks in the area!',
+				'img':'../static/img/sallychen.jpg'
+				}
+
+	return render_template('Reviewer.html', reviewer = reviewer)
+
+@app.route('/reviewer/robertevremonde')
+def robert_evremonde():
+	reviewer = {'name': 'Robert Evremonde',
+				'date_joined': 'March 28, 2017',
+				'origin': 'France',
+				'location': 'New York, NY',
+				'fave_restaurant': 'Pappasito\'s Cantina, On the Border, small local taco joints',
+				'bio': 'Growing up in South France, I\'ve developed a true passion for the world\'s freshest oysters. As I begin life in New York, I look forward to trying out the best that New York has to offer.',
+				'img': '../static/img/robertpic.jpg'
+				}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
 
