@@ -137,7 +137,7 @@ def wildwoodkitchen():
 	}
 	return render_template('Restaurant.html', restaurant = restaurant, review = review)
 
-@app.route('/restaurants/Ulele')
+@app.route('/restaurants/ulele')
 def ulele():
 	restaurant = {
 	'name': 'Ulele',
