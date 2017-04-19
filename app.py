@@ -102,7 +102,7 @@ def review_4():
 	restaurant = {'name': 'Tulio'}
 	reviewer = {
 		'name': 'Tyler Durden',
-		'review': '"Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occasion. The ambience was extremely conducive for setting an intimate mood; the soft music that plays in the background complements the dimly lit interior perfectly. Our servers were also excellent – they executed our orders perfectly without fail and even gave us a complimentary dessert at the end of dinner! Can’t wait to come back." - 3/3/2016',
+		'review': '"Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occasion. The ambience was extremely conducive for setting an intimate mood; the soft music that plays in the background complements the dimly lit interior perfectly. Our servers were also excellent - they executed our orders perfectly without fail and even gave us a complimentary dessert at the end of dinner! Can\'t wait to come back." - 3/3/2016',
 		'service_rating': '5/5',
 		'atmosphere_rating': '5/5',
 		'value_rating': '3/5',
@@ -184,7 +184,7 @@ def tulio():
 	'name': 'Tulio',
 	'rating': 5,
 	'image':'../static/img/tulio3.jpg',
-	'circlepic':'../static/img/tylerdurden.jpg',
+	'circlepic':'../static/img/durdenpic.jpg',
 	'cuisine':'Italian cuisine',
 	'price': '$$$',
 	'address':'1100 5th Ave Seattle, WA 98101 ',
@@ -193,7 +193,7 @@ def tulio():
 	}
 	review = {
 		'rating':5,
-		'text':'Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occasion. The ambience was extremely conducive for setting an intimate mood; the soft music that plays in the background complements the dimly lit interior perfectly. Our servers were also excellent – they executed our orders perfectly without fail and even gave us a complimentary dessert at the end of dinner! Can’t wait to come back.',
+		'text':'Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occasion. The ambience was extremely conducive for setting an intimate mood; the soft music that plays in the background complements the dimly lit interior perfectly. Our servers were also excellent - they executed our orders perfectly without fail and even gave us a complimentary dessert at the end of dinner! Can\'t wait to come back.',
 		'signature':'Tyler, 03/03/2016',
 	}
 	return render_template('Restaurant.html', restaurant = restaurant, review = review)	
@@ -218,7 +218,7 @@ def gabriella_romero():
 
 @app.route('/reviewer/tylerdurden')
 def tyler_durden():
-	reviewer = {'name':'Tyler Durden', 'date_joined':'July 25, 2015', 'origin':'USA','location':'Seattle, WA', 'fave_restaurant':'Tulio', 'bio':'I am a freelance writer based in Seattle. When I\'m not writing, I love taking long walks along the beach, sitting in coffee shops, and enjoying fine wine. My first book inspired an award winning movie, so I am doing quite well. I love to explore the Seattle outdoors.', 'img':'../static/img/tylerdurden.jpg'}
+	reviewer = {'name':'Tyler Durden', 'date_joined':'July 25, 2015', 'origin':'USA','location':'Seattle, WA', 'fave_restaurant':'Tulio', 'bio':'I am a freelance writer based in Seattle. When I\'m not writing, I love taking long walks along the beach, sitting in coffee shops, and enjoying fine wine. My first book inspired an award winning movie, so I am doing quite well. I love to explore the Seattle outdoors.', 'img':'../static/img/durdenpic.jpg'}
 
 	return render_template('Reviewer.html', reviewer = reviewer)	
 	
