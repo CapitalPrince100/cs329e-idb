@@ -1,4 +1,4 @@
-#!/Users/Angel/Documents/cs329e-idb/venv/bin/python
+#!/var/www/rmiglin.github.io/venv/bin/python
 
 import sys
 import getopt
