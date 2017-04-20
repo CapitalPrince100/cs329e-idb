@@ -907,5 +907,4 @@ def john_anderson_reviews():
 	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
 
 if __name__ == '__main__':
-	# app.run('107.170.6.199', '8910') # Run application
-	app.run()
+	app.run('107.170.6.199', '8910') # Run application
