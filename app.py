@@ -707,7 +707,7 @@ def la_contenta_reviews():
 	}
 	review = {
 		'date':'October 22, 2016',
-		'partial':'Beef wasn\'t well cooked… way too chewy and unseasoned. Probably wouldn\'t return again.',
+		'partial':'Beef wasn\'t well cooked... way too chewy and unseasoned. Probably wouldn\'t return again.',
 		'url':'review_10'
 	}
 	reviewer = {
