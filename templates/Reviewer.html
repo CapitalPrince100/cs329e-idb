@@ -63,7 +63,8 @@
 				<p><span class="data-type">Currently Lives in:</span> {{ reviewer.location }}</p>
 				<p><span class="data-type">Favorite Restaurants:</span> {{ reviewer.fave_restaurant }}</p>
 				<p><span class="data-type">Biography:</span> {{ reviewer.bio }} </p>
-				<p><span class="data-type"><a>Connect with {{ reviewer.name }}</a></span></p>
+                <p><span class="data-type"><a href={{ url_for(reviewer.url) }}>View all reviews by {{ reviewer.name }}</a></span></p>
+        		<p><span class="data-type"><a>Connect with {{ reviewer.name }}</a></span></p>
 				<p><img src="../static/img/fb.png" style="width:35px;height=35px;margin:0px 35px 30px 0px"> <span style="margin:0px 0px 0px -30px"><a href="https://www.facebook.com">Facebook</a></span>
 				 <img src="../static/img/linkedin.png" style="width:35px;height=35px;margin:0px 35px 30px 30px"><span style="margin:0px 0px 0px -30px"><a href="https://www.linkedin.com">Linkedin</a></span></p>
 
