@@ -46,7 +46,9 @@ def review_1():
 		'value_rating':'4/5',
 		'food_rating':'5/5',
 		'dress':'Casual',
-		'would_recommend':'Yes'
+		'would_recommend':'Yes',
+		'url':'john_anderson',
+		'all_reviews':'john_anderson_reviews'
 	}
 	images = {
 		1:'../static/img/vertspic.jpg',
@@ -68,7 +70,9 @@ def review_2():
 		'value_rating': '3/5',
 		'food_rating': '3/5',
 		'dress': 'Casual or snappy casual at night because it is a bar',
-		'would_recommend': 'No'
+		'would_recommend': 'No',
+		'url':'james_connelly',
+		'all_reviews':'james_connelly_reviews'
 	}
 	images = {
 		1: '../static/img/wildwood1.jpg',
@@ -89,7 +93,9 @@ def review_3():
 		'value_rating': '5/5',
 		'food_rating': '5/5',
 		'dress': 'Snappy Casual',
-		'would_recommend': 'Yes'
+		'would_recommend': 'Yes',
+		'url':'gabriella_romero',
+		'all_reviews':'gabriella_romero_reviews'
 	}
 	images = {
 		1: '../static/img/ulele1.jpg',
@@ -110,7 +116,9 @@ def review_4():
 		'value_rating': '3/5',
 		'food_rating': '5/5',
 		'dress': 'Formal',
-		'would_recommend': 'Yes'
+		'would_recommend': 'Yes',
+		'url':'tyler_durden',
+		'all_reviews':'tyler_durden_reviews'
 	}
 	images = {
 		1: '../static/img/tulio1.jpg',
@@ -131,7 +139,9 @@ def review_5():
 		'value_rating': '1/5',
 		'food_rating': '1/5',
 		'dress': 'Formal',
-		'would_recommend': 'No'
+		'would_recommend': 'No',
+		'url':'paul_edgars',
+		'all_reviews':'paul_edgars_reviews'
 	}
 	images = {
 		1: '../static/img/capitalgrille1.jpg',
@@ -152,7 +162,10 @@ def review_6():
 		'value_rating': '4/5',
 		'food_rating': '5/5',
 		'dress': 'Casual',
-		'would_recommend': 'Yes'
+		'would_recommend': 'Yes',
+		'url':'madison_monet',
+		'all_reviews':'madison_monet_reviews'
+
 	}
 	images = {
 		1: '../static/img/snakerivergrill3.jpg',
@@ -173,7 +186,9 @@ def review_7():
 		'value_rating': 'meat is value',
 		'food_rating': 'quality',
 		'dress': 'wear clothes',
-		'would_recommend': 'do what you want'
+		'would_recommend': 'do what you want',
+		'url':'alex_buff',
+		'all_reviews':'alex_buff_reviews'
 	}
 	images = {
 		1: '../static/img/slymans1.jpg',
@@ -194,7 +209,9 @@ def review_8():
 		'value_rating': '2/5',
 		'food_rating': '2/5',
 		'dress': 'Casual',
-		'would_recommend': 'No'
+		'would_recommend': 'No',
+		'url':'josh_davis',
+		'all_reviews':'josh_davis_reviews'
 	}
 	images = {
 		1: '../static/img/scalasbistro.jpg',
@@ -215,7 +232,10 @@ def review_9():
 		'value_rating': '5/5',
 		'food_rating': '5/5',
 		'dress': 'Casual',
-		'would_recommend': 'Yes'
+		'would_recommend': 'Yes',
+		'url':'young_joun_kim',
+		'all_reviews':'young_joun_kim_reviews'
+
 	}
 	images = {
 		1: '../static/img/parksbbq1.jpg',
@@ -236,7 +256,9 @@ def review_10():
 		'value_rating': '1/5',
 		'food_rating': '2/5',
 		'dress': 'Casual',
-		'would_recommend': 'No'
+		'would_recommend': 'No',
+		'url':'amy_yang',
+		'all_reviews':'amy_yang_reviews'
 	}
 	images = {
 		1: '../static/img/la-contenta-interior.jpg',
@@ -257,7 +279,9 @@ def review_11():
 		'value_rating': '5/5',
 		'food_rating': '5/5',
 		'dress': 'Casual',
-		'would_recommend': 'Yes'
+		'would_recommend': 'Yes',
+		'url':'sally_chen',
+		'all_reviews':'sally_chen_reviews'
 	}
 	images = {
 		1: '../static/img/eltacoriendo1.jpg',
@@ -278,7 +302,9 @@ def review_12():
 		'value_rating': '5/5',
 		'food_rating': '5/5',
 		'dress': 'Classy',
-		'would_recommend': 'Yes'
+		'would_recommend': 'Yes',
+		'url':'robert_evremonde',
+		'all_reviews':'robert_evremonde_reviews'
 	}
 	images = {
 		1: '../static/img/leshallespic.jpg',
@@ -558,31 +584,39 @@ def john_anderson():
 
 @app.route('/reviewer/jamesconnelly')
 def james_connelly():
-	reviewer = {'name':'James Connelly', 'date_joined':'May 3, 2011', 'origin':'USA','location':'Santa Barbara, CA', 'fave_restaurant':'In-N-Out, Buffalo Wild Wings', 'bio':'Always on the lookout for new food. I love a classic burger and great BBQ, but I\'m open to trying all kinds of new cuisines!', 'img':'../static/img/jamesconnelly.jpg'}
+	reviewer = {
+	'name':'James Connelly',
+	'date_joined':'May 3, 2011',
+	'origin':'USA',
+	'location':'Santa Barbara, CA',
+	'fave_restaurant':'In-N-Out, Buffalo Wild Wings',
+	'bio':'Always on the lookout for new food. I love a classic burger and great BBQ, but I\'m open to trying all kinds of new cuisines!', 'img':'../static/img/jamesconnelly.jpg',
+	'url':'james_connelly_reviews'
+	}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
 
 @app.route('/reviewer/gabriellaromero')
 def gabriella_romero():
-	reviewer = {'name':'Gabriella Romero', 'date_joined':'September 8, 2013', 'origin':'Brazil','location':'Tampa Bay, FL', 'fave_restaurant':'Fudruckers, Applebee\'s', 'bio':'"A macaron by any other name would taste just as sweet" A well prepared, diverse meal is poerty. Each course should be a carefully thought out masterpiece to be cherished and savored. I\'m on a quest to find these master artists and to experience their masterpieces!', 'img':'../static/img/gabriellaromero.jpg'}
+	reviewer = {'name':'Gabriella Romero', 'date_joined':'September 8, 2013', 'origin':'Brazil','location':'Tampa Bay, FL', 'fave_restaurant':'Fudruckers, Applebee\'s', 'bio':'"A macaron by any other name would taste just as sweet" A well prepared, diverse meal is poerty. Each course should be a carefully thought out masterpiece to be cherished and savored. I\'m on a quest to find these master artists and to experience their masterpieces!', 'img':'../static/img/gabriellaromero.jpg', 'url':'gabriella_romero_reviews'}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
 
 @app.route('/reviewer/tylerdurden')
 def tyler_durden():
-	reviewer = {'name':'Tyler Durden', 'date_joined':'July 25, 2015', 'origin':'USA','location':'Seattle, WA', 'fave_restaurant':'Tulio', 'bio':'I am a freelance writer based in Seattle. When I\'m not writing, I love taking long walks along the beach, sitting in coffee shops, and enjoying fine wine. My first book inspired an award winning movie, so I am doing quite well. I love to explore the Seattle outdoors.', 'img':'../static/img/durdenpic.jpg'}
+	reviewer = {'name':'Tyler Durden', 'date_joined':'July 25, 2015', 'origin':'USA','location':'Seattle, WA', 'fave_restaurant':'Tulio', 'bio':'I am a freelance writer based in Seattle. When I\'m not writing, I love taking long walks along the beach, sitting in coffee shops, and enjoying fine wine. My first book inspired an award winning movie, so I am doing quite well. I love to explore the Seattle outdoors.', 'img':'../static/img/durdenpic.jpg', 'url':'tyler_durden_reviews'}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
 
 @app.route('/reviewer/pauledgars')
 def paul_edgars():
-	reviewer = {'name':'Paul Edgars', 'date_joined':'June 3, 2015', 'origin':'USA','location':'Minneapolis, MN', 'fave_restaurant':'La Finca, Hasta La Pasta', 'bio':'Food, food, food. Three meals a day just doesn\'t cut it for me. Looking to experience all the riches the culinary world has to offer while meeting other enthusiasts along the way.', 'img':'../static/img/pauledgars.jpg'}
+	reviewer = {'name':'Paul Edgars', 'date_joined':'June 3, 2015', 'origin':'USA','location':'Minneapolis, MN', 'fave_restaurant':'La Finca, Hasta La Pasta', 'bio':'Food, food, food. Three meals a day just doesn\'t cut it for me. Looking to experience all the riches the culinary world has to offer while meeting other enthusiasts along the way.', 'img':'../static/img/pauledgars.jpg', 'url':'paul_edgars_reviews'}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
 
 @app.route('/reviewer/madisonmonet')
 def madison_monet():
-	reviewer = {'name':'Madison Monet', 'date_joined':'March 15, 2012', 'origin':'USA','location':'Jackson, WY', 'fave_restaurant':'Snake River Grill', 'bio':'I like to consider myself a small time duck fry critic. Up here in Wyoming, it might not seem to be very very exciting to focus in on the quality duck fries this town provides, but I love this town and I\'m set on giving my opinion for every single place that serves duck fries.', 'img':'../static/img/madisonpic.jpg'}
+	reviewer = {'name':'Madison Monet', 'date_joined':'March 15, 2012', 'origin':'USA','location':'Jackson, WY', 'fave_restaurant':'Snake River Grill', 'bio':'I like to consider myself a small time duck fry critic. Up here in Wyoming, it might not seem to be very very exciting to focus in on the quality duck fries this town provides, but I love this town and I\'m set on giving my opinion for every single place that serves duck fries.', 'img':'../static/img/madisonpic.jpg', 'url':'madison_monet_reviews'}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
 
@@ -592,7 +626,8 @@ def alex_buff():
 				'date_joined':'May 4, 2011',
 				'origin':'USA','location':'Cleveland, OH',
 				'fave_restaurant':'Slyman\'s',
-				'bio':' I\'m just a dude who likes meat. Don\'t connect with me. I don\'t use the internet.', 'img':'../static/img/AlexBuffpic.jpg'
+				'bio':' I\'m just a dude who likes meat. Don\'t connect with me. I don\'t use the internet.', 'img':'../static/img/AlexBuffpic.jpg',
+				'url':'alex_buff_reviews'
 				}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
@@ -604,7 +639,8 @@ def josh_davis():
 				'origin':'Germany',
 				'location':'Santa Rosa, CA',
 				'fave_restaurant':'None',
-				'bio':' I am a business executive with a passion for cloud computing and data mining.', 'img':'../static/img/joshD.jpg'
+				'bio':' I am a business executive with a passion for cloud computing and data mining.', 'img':'../static/img/joshD.jpg',
+				'url':'josh_davis_reviews'
 				}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
@@ -617,7 +653,8 @@ def young_joun_kim():
 				'location':'Los Angeles, CA',
 				'fave_restaurant':'Park\'s Barbeque, KFC',
 				'bio':'Korean food is the best type of food. Nothing beats a soondobu jjigae when it\'s cold outside, samgyobsal when it\'s time to celebrate, or Korean Fried Chicken (KFC) when you\'ve been having a rough week. Ya feel?',
-				'img':'../static/img/youngjoun.jpg'
+				'img':'../static/img/youngjoun.jpg',
+				'url':'young_joun_kim_reviews'
 				}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
@@ -630,7 +667,8 @@ def amy_yang():
 				'location':'New York, NY',
 				'fave_restaurant':'Trump Grill, Le Bernardin',
 				'bio':'I am film major at New York University. I am passionate about adventure and fantasy films in particular. Someday I hope I can a be a successful director. I enjoy going to the gym, trying food from different countries, and connecting with people from different cultures.',
-				'img':'../static/img/amypic.jpg'
+				'img':'../static/img/amypic.jpg',
+				'url':'amy_yang_reviews'
 				}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
@@ -643,7 +681,8 @@ def sally_chen():
 				'location':'Minneapolis, MN',
 				'fave_restaurant':'Pappasito\'s Cantina, On the Border, small local taco joints',
 				'bio':' I love to eat Mexican food! In particular, I have a love for tacos. I believe a taco can be made out of any meal. So far my favorite tacos have been from local taco food trucks in the area!',
-				'img':'../static/img/sallychen.jpg'
+				'img':'../static/img/sallychen.jpg',
+				'url':'sally_chen_reviews'
 				}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
@@ -656,7 +695,8 @@ def robert_evremonde():
 				'location': 'New York, NY',
 				'fave_restaurant': 'Pappasito\'s Cantina, On the Border, small local taco joints',
 				'bio': 'Growing up in South France, I\'ve developed a true passion for the world\'s freshest oysters. As I begin life in New York, I look forward to trying out the best that New York has to offer.',
-				'img': '../static/img/robertpic.jpg'
+				'img': '../static/img/robertpic.jpg',
+				'url':'robert_evremonde_reviews'
 				}
 
 	return render_template('Reviewer.html', reviewer = reviewer)
@@ -906,5 +946,216 @@ def john_anderson_reviews():
 	}
 	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
 
+@app.route('/reviewers/paul_edgars/reviews')
+def paul_edgars_reviews():
+	restaurant = {
+		'name':'The Capital Grille',
+		'address':'801 Hennepin Ave, Minneapolis, MN 55402',
+		'url':'thecapitalgrill'
+	}
+	review = {
+		'date':'April 1, 2017',
+		'partial':'I ordered the tuna tartare with avocado, mango and sriracha. Expecting a very fine meal, I ordered a fine glass of Pinot Grigio to go along with (what I *expected* to be) the culinary masterpiece that followed. Three words for the experience. Un. Be. Lievable. First the waitress tripped and spilled the wine bottle on my three piece suit. Proceeded to apologize and offer me my entire meal for free.',
+		'url':'review_5'
+	}
+	reviewer = {
+		'name': 'Paul Edgars',
+		'url':	'paul_edgars'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/gabriella_romero/reviews')
+def gabriella_romero_reviews():
+	restaurant = {
+		'name':'Ulele',
+		'address':'1810 North Highland Avenue, Tampa Bay, FL 33602',
+		'url':'ulele'
+	}
+	review = {
+		'date':'February 14, 2017',
+		'partial':'I\'ll admit, I went into Ulele expecting great things. I\'d heard my ex-husband and his brand new wife had them cater his new wedding (with his brand new wife). I made reservations for 1 at Ulele 2 weeks in advance because I have a lot of free time in my single life, and I\'m able to think far in advance without a man on my mind. When the evening rolled around, I donned my new bonnet which I regained custody of, and took a taxi to the restaurant. I was seated at a table close to the animatronic singing pelican and placed my napkin in my lap.',
+		'url':'review_3'
+	}
+	reviewer = {
+		'name': 'Gabriella Romero',
+		'url':	'gabriella_romero'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/james_connelly/reviews')
+def james_connelly_reviews():
+	restaurant = {
+		'name':'Wildwood Kitchen',
+		'address':'410 E Haley St Santa Barbara, CA 93101',
+		'url':'wildwoodkitchen'
+	}
+	review = {
+		'date':'April 15, 2016',
+		'partial':'Before I start harping on the quality of the food, I will applaud Wildwood for having tremendous customer service. My waiter Sarah was always quick and responsive to my requests and showed enthusiasm and genuine concern for my experience at the restaurant. But beyond that, I will say, Wildwood is nothing more than subpar barbeque.',
+		'url':'review_2'
+	}
+	reviewer = {
+		'name': 'James Connelly',
+		'url':	'james_connelly'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/tyler_durden/reviews')
+def tyler_durden_reviews():
+	restaurant = {
+		'name':'Tulio',
+		'address':'1100 5th Ave Seattle, WA 98101',
+		'url':'tulio'
+	}
+	review = {
+		'date':'March 3rd, 2016',
+		'partial':'Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occassion.',
+		'url':'review_4'
+	}
+	reviewer = {
+		'name': 'Tyler Durden',
+		'url':	'tyler_durden'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/madison_monet/reviews')
+def madison_monet_reviews():
+	restaurant = {
+		'name':'Snake River Grill',
+		'address':'84 E Broadway, Jackson, WY 83001',
+		'url':'snakerivergrill'
+	}
+	review = {
+		'date':'January 4th, 2014',
+		'partial':'Let me just start by saying I consider myself a duck fry connoisseur. Now when I say Snake River Grill has some damn good duck fries I mean it.',
+		'url':'review_6'
+	}
+	reviewer = {
+		'name': 'Madison Monet',
+		'url':	'madison_monet'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/sally_chen/reviews')
+def sally_chen_reviews():
+	restaurant = {
+		'name':'El Taco Riendo',
+		'address':'2412 Central Ave NE Minneapolis, MN 55418',
+		'url':'eltacoriendo'
+	}
+	review = {
+		'date':'January 15, 2017',
+		'partial':'Everything on El Taco Riendo\'s menu is incredible. I\'ve ordered multiple variations of their taco trio, ranging from chicken to brisket to pork to tofu tacos - they have it all. Anything you want in a taco, they can make for you. I love the chill atmosphere of the restaurant. It\'s a great place to kick it with friends on the weekend; they also have an amazing drink selection...',
+		'url':'review_11'
+	}
+	reviewer = {
+		'name': 'Sally Chen',
+		'url':'sally_chen'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/amy_yang/reviews')
+def amy_yang_reviews():
+	restaurant = {
+		'name':'La Contenta',
+		'address':'102 Norfolk St New York, NY 10002',
+		'url':'lacontenta'
+	}
+	review = {
+		'date':'October 22, 2016',
+		'partial':'Beef wasn\'t well cooked... way too chewy and unseasoned. Probably wouldn\'t return again.',
+		'url':'review_10'
+	}
+	reviewer = {
+		'name': 'Amy Yang',
+		'url':	'amy_yang'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/robert_evremonde/reviews')
+def robert_evremonde_reviews():
+	restaurant = {
+		'name':'Brasserie Les Halles',
+		'address':'15 John St, New York, NY 10038',
+		'url':'brasserieleshalles'
+	}
+	review = {
+		'date':'March 30, 2017',
+		'partial':'This is Chef Anthony Bourdain\'s restaurant. This is a fantastic restaurant, truly superb. The wine pairing is well thought out and a true delight. I am thankful that the oysters here at Les Halles remind me of the freshly shucked oysters I grew up eating in France. The bread here is also great, very fresh and aromatic -- all in all, this restaurant really reminds me of the famous Les Halles in Paris!',
+		'url':'review_12'
+	}
+	reviewer = {
+		'name': 'Robert Evremonde',
+		'url':	'robert_evremonde'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/young_joun_kim/reviews')
+def young_joun_kim_reviews():
+	restaurant = {
+		'name':'Park\'s Barbeque',
+		'address':'955 S. Vermont Ave, Los Angeles, CA 90006',
+		'url':'parksbarbeque'
+	}
+	review = {
+		'date':'December 28, 2014',
+		'partial':'On a blisteringly cold day in LA, several bros and I stepped into Park\'s for some kalbi and soondobu jjigae to warm the soul. Love the meat here - it\'s always so fresh and juicy. We ordered 4 platters of kalbi, 3 platters of bulgolgi, 3 platters of samgyobsal (pork belly), 4 orders of NY strip steak, 2 orders of grilled squid, and 4 bowls of soondobu jjigae. And the banchan here are soooo good!! Especially love the kimchi - Park\'s ferments their kimchi so it\'s pretty sour when you eat it, which is what I love. But, some of my non-Korean friends don\'t love it as much as I do, which is cool. My only request for Park\'s is to serve their food faster next time. They do use a classic KBBQ stalling technique to try to save some cash.',
+		'url':'review_9'
+	}
+	reviewer = {
+		'name': 'Young-joun Kim',
+		'url':	'young_joun_kim'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/josh_davis/reviews')
+def josh_davis_reviews():
+	restaurant = {
+		'name':'Scala\'s Bistro',
+		'address':'432 Powell St San Francisco, CA 94102',
+		'url':'scalasbistro'
+	}
+	review = {
+		'date':'March 3, 2017',
+		'partial':'The fog of time probably distorts my memory of Scala\'s somewhat but the standard of quality is down quite a bit and it\'s evident in the service, menu, and food.  It\'s unfortunate but it is what it is - just another okay restaurant serving passable food to tourists. It was once so much better.',
+		'url':'review_8'
+	}
+	reviewer = {
+		'name': 'Josh Davis',
+		'url':	'josh_davis'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+@app.route('/reviewers/alex_buff/reviews')
+def alex_buff_reviews():
+	restaurant = {
+		'name':'Slyman\'s',
+		'address':'3106 St Clair Ave NE, Cleveland, OH 44114',
+		'url':'slymans'
+	}
+	review = {
+		'date':'May 4th, 2011',
+		'partial':'I\'m a regular at Slyman\'s. I know the owner. The owner knows me. I walk in, give him a nod and he starts cooking my usual.',
+		'url':'review_7'
+	}
+	reviewer = {
+		'name': 'Alex Buff',
+		'url':	'alex_buff'
+		}
+
+	return render_template('Reviewer-Reviews.html', restaurant=restaurant, review=review, reviewer=reviewer)
+
+
 if __name__ == '__main__':
-	app.run('107.170.6.199', '80') # Run application
+	# app.run('107.170.6.199', '80') # Run application
+	app.run()
