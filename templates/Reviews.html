@@ -32,9 +32,11 @@
     <script src="../static/js/jquery-1.12.3.js"></script>
     <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-        $('#table').DataTable({"dom": '<ltip>' });
-    });
+        $(document).ready(function() {
+            $('#table').DataTable({
+                "lengthMenu": [[3, 7, 9, -1], [3, 7, 9, "All"]]
+            });
+        });
     </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -82,7 +84,7 @@
                     <tr>
                         <td>1</td>
                         <td><a href={{ url_for('john_anderson') }}>John Anderson</a></td>
-                        <td>VertsKebap</td>
+                        <td><a href={{ url_for('vertskebap') }}>VertsKebap</a></td>
                         <td>2514 Guadalupe St Austin, TX 78705</td>
                         <td>February 1, 2017</td>
                         <td>Their Kebaps are really good and healthy. This place has changed a lot since I first started UT.
@@ -95,7 +97,7 @@
                             <tr>
                                 <td>2</td>
                                 <td><a href={{ url_for('tyler_durden') }}>Tyler Durden</a></td>
-                                <td>Tulio</td>
+                                <td><a href={{ url_for('tulio') }}>Tulio</a></td>
                                 <td>1100 5th Ave Seattle, WA 98101</td>
                                 <td>March 3, 2016</td>
                                 <td>Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it.
@@ -107,7 +109,7 @@
                                     <tr>
                                         <td>3</td>
                                         <td><a href={{ url_for('amy_yang') }}>Amy Yang</a></td>
-                                        <td>La Contenta</td>
+                                        <td><a href={{ url_for('lacontenta') }}>La Contenta</a></td>
                                         <td>102 Norfolk St New York, NY 10002</td>
                                         <td>October 22, 2016</td>
                                         <td>Beef wasn't well cooked… way too chewy and unseasoned. Probably wouldn't return again. <a href={{ url_for('review_10') }}>(Full review...)</a></td>
@@ -118,7 +120,7 @@
                                     <tr>
                                         <td>4</td>
                                         <td><a href={{ url_for('josh_davis') }}>Josh Davis</a></td>
-                                        <td>Scala Bistro</td>
+                                        <td><a href={{ url_for('scalasbistro') }}>Scala's Bistro</a></td>
                                         <td>432 Powell St San Francisco, CA 94102</td>
                                         <td>March 3, 2017</td>
                                         <td>The fog of time probably distorts my memory of Scala's somewhat but the standard of quality... <a href={{ url_for('review_8') }}>(Full review...)</a></td>
@@ -129,7 +131,7 @@
                                         <tr>
                                             <td>5</td>
                                             <td><a href={{ url_for('james_connelly') }}>James Connelly</a></td>
-                                            <td>Wildwood Kitchen</td>
+                                            <td><a href={{ url_for('wildwoodkitchen') }}>Wildwood Kitchen</a></td>
                                             <td>410 E Haley St Santa Barbara, CA 93101</td>
                                             <td>April 15, 2016</td>
                                             <td>Before I start harping on the quality of the food, I will applaud Wildwood for having tremendous customer service... <a href={{ url_for('review_2') }}>(Full review...)</a></td>
@@ -140,7 +142,7 @@
                                         <tr>
                                             <td>6</td>
                                             <td><a href={{ url_for('sally_chen') }}>Sally Chen</a></td>
-                                            <td>El Taco Riendo</td>
+                                            <td><a href={{ url_for('eltacoriendo') }}>El Taco Riendo</a></td>
                                             <td>2412 Central Ave NE Minneapolis, MN 55418</td>
                                             <td>January 15, 2017</td>
                                             <td>Everything on El Taco Riendo's menu is incredible... <a href={{ url_for('review_11') }}>(Full review...)</a></td>
@@ -150,7 +152,7 @@
                                         <tr>
                                             <td>7</td>
                                             <td><a href={{ url_for('madison_monet') }}>Madison Monet</a></td>
-                                            <td>Snake River Grill</td>
+                                            <td><a href={{ url_for('snakerivergrill') }}>Snake River Grill</a></td>
                                             <td>84 E Broadway, Jackson, WY 83001</td>
                                             <td>January 4th, 2014</td>
                                             <td>Let me just start by saying I consider myself a duck fry connoisseur. Now when I say Snake River Grill has some damn good duck fries I mean it.<a href={{ url_for('review_6') }}>(Full review...)</td>
@@ -160,7 +162,7 @@
                                             <tr>
                                                 <td>8</td>
                                                 <td><a href={{ url_for('alex_buff') }}>Alex Buff</a></td>
-                                                <td>Slyman's</td>
+                                                <td><a href={{ url_for('slymans') }}>Slyman's</a></td>
                                                 <td>3106 St Clair Ave NE, Cleveland, OH 44114</td>
                                                 <td>May 4th, 2011</td>
                                                 <td>I'm a regular at Slyman's. I know the owner. The owner knows me. I walk in, give him a nod and he starts cooking my usual.<a href={{ url_for('review_7') }}>(Full review...)</td>
@@ -171,7 +173,7 @@
                                                 <tr>
                                                     <td>9</td>
                                                     <td><a href={{ url_for('robert_evremonde') }}>Robert Evremonde</a></td>
-                                                    <td>Brasserie Les Halles</td>
+                                                    <td><a href={{ url_for('brasserieleshalles') }}>Brasserie Les Halles</a></td>
                                                     <td>15 John St, New York, NY 10038</td>
                                                     <td>March 30, 2017</td>
                                                     <td>This is Chef Anthony Bourdain's restaurant. This is a fantastic restaurant... <a href={{ url_for('review_12') }}>(Full review...)</td>
@@ -182,7 +184,7 @@
                                                     <tr>
                                                         <td>10</td>
                                                         <td><a href={{ url_for('young_joun_kim') }}>Young-joun Kim</a></td>
-                                                        <td>Park's Barbeque</td>
+                                                        <td><a href={{ url_for('parksbarbeque') }}>Park's Barbeque</a></td>
                                                         <td>955 S. Vermont Ave, Los Angeles, CA 90006</td>
                                                         <td>December 28, 2014</td>
                                                         <td>On a blisteringly cold day in LA, several bros and I stepped into Park's for some kalbi and soondobu jjigae to warm the soul. Love the meat here - it's always so fresh and juicy. <a href={{ url_for('review_9') }}>(Full review...)</td>
@@ -193,7 +195,7 @@
                                                         <tr>
                                                             <td>11</td>
                                                             <td><a href={{ url_for('paul_edgars') }}>Paul Edgars</a></td>
-                                                            <td>The Capital Grille</td>
+                                                            <td><a href={{ url_for('thecapitalgrill') }}>The Capital Grille</a></td>
                                                             <td>801 Hennepin Ave, Minneapolis, MN 55402</td>
                                                             <td>April 1, 2017</td>
                                                             <td>I ordered the tuna tartare with avocado, mango and sriracha. Expecting a very fine meal, I ordered a fine glass of Pinot Grigio to go along with (what I *expected* to be) the culinary masterpiece that followed. <a href={{ url_for('review_5') }}>(Full review...)</td>
@@ -204,7 +206,7 @@
                                                             <tr>
                                                                 <td>12</td>
                                                                 <td><a href={{ url_for('gabriella_romero') }}>Gabriella Romero</a></td>
-                                                                <td>Ulele</td>
+                                                                <td><a href={{ url_for('ulele') }}>Ulele</a></td>
                                                                 <td>1810 North Highland Avenue, Tampa Bay, FL 33602</td>
                                                                 <td>February 14, 2017</td>
                                                                 <td>I'll admit, I went into Ulele expecting great things. I'd heard my ex-husband and his brand new wife had them cater his new wedding (with his brand new wife). I made reservations for 1 at Ulele 2 weeks<a href={{ url_for('review_3') }}>(Full review...)</td>

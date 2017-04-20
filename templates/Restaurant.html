@@ -29,8 +29,8 @@
 <body>
     <nav>
       <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo"><img src="../static/img/logo.png"/></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <a href="index.html" class="brand-logo center"><img src="../static/img/logo.png"/></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
           <li><a href={{ url_for('restaurants') }}>Restaurants</a></li>
           <li><a href={{ url_for('reviews') }}>Reviews</a></li>
           <li><a href={{ url_for('reviewers') }}>Reviewers</a></li>
@@ -91,7 +91,7 @@
                                     <div class="col s8 m8">
                                         <p class="review-text-collapsible">{{ review.text }}
                                         </p><br>
-                                        <div class="all-reviews"><a href="Reviews-Verts.html">See all reviews</a></div>
+                                        <div class="all-reviews"><a href={{ url_for(review.all_reviews) }}>See all reviews</a></div>
                                     </div>
                                 </div>
                             </div>
