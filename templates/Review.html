@@ -63,7 +63,7 @@
 				<img src= {{ images.3 }}/>
 			</div>
 			<div class="col-lg-8 col-md-8">
-				<h2><b>Review by {{ reviewer.name }}</b></h2>
+				<h2><b>Review by <a href={{ url_for(reviewer.url) }}>{{ reviewer.name }}</a></b></h2>
 				<p><span class="data-type">Full Review:</span> {{ reviewer.review }}</p>
 				<p><span class="data-type">Service:</span> {{ reviewer.service_rating }}</p>
 				<p><span class="data-type">Atmosphere:</span> {{ reviewer.atmosphere_rating }}</p>
@@ -71,6 +71,7 @@
 				<p><span class="data-type">Food Quality:</span> {{ reviewer.food_rating }}</p>
 				<p><span class="data-type">Dress:</span> {{ reviewer.dress }}</p>
                 <p><span class="data-type">Would Recommend:</span> {{ reviewer.would_recommend }}</p>
+                <p><span class="data-type"><a href={{ url_for( reviewer.all_reviews )}}>View all reviews by {{ reviewer.name}}</a></span></p>
 				</div>
 		</div>
 	   <div class="table-container">
