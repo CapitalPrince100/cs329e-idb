@@ -1157,5 +1157,5 @@ def alex_buff_reviews():
 
 
 if __name__ == '__main__':
-	# app.run('107.170.6.199', '80') # Run application
-	app.run()
+	app.run('107.170.6.199', '80') # Run application
+	# app.run()
