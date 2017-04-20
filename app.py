@@ -53,10 +53,10 @@ def review_1():
 		2:'../static/img/verts2.jpg',
 		3:'../static/img/verts3.jpg'
 		}
-		
+
 	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
 
-	
+
 @app.route('/review/2')
 def review_2():
 	restaurant = {'name': 'WildwoodKitchen'}
@@ -77,7 +77,7 @@ def review_2():
 	}
 
 	return render_template('Review.html', restaurant = restaurant, reviewer = reviewer, images = images)
-	
+
 @app.route('/review/3')
 def review_3():
 	restaurant = {'name': 'Ulele'}
@@ -348,7 +348,7 @@ def ulele():
 		'text':'I\'ll admit, I went into Ulele expecting great things. I\'d heard my ex-husband and his brand new wife had them cater his new wedding (with his brand new wife). I made reservations for 1 at Ulele 2 weeks in advance because I have a lot of free time in my single life, and I\'m able to think far in advance without a man on my mind. When the evening rolled around, I donned my new bonnet which I regained custody of, and took a taxi to the restaurant. I was seated at a table close to the animatronic singing pelican and placed my napkin in my lap. When the waitress came around I asked for: "1 Hawaiian Punch" because I only need onre drink for one person, but I was thoroughly dismayed that a fine restaurant like Ulele\'s didn\'t have Hawaiian Punch. Fudrucker\'s wouldn\'t make this mistake!!! However, I rallied and ordered a glass of iced tea in its place. Then, I was starting to feel liberated and free all by my lonesome, so I ordered a bowl of ice cream for dinner. Only 1 bowl because I only need 1 for 1 person eating. Me. But I got overzealous and started ordering ice cream hand over fist. More MORE MORE!!!! My tab came out to well over a hundred dollars, but since I\'m not spending money on my husband anymore, this wasn\'t a problem. I would strongly recommend this specific experience to all those lonely souls out there.',
 		'signature':'Gabriella, 02/14/2017',
 	}
-	return render_template('Restaurant.html', restaurant = restaurant, review = review)	
+	return render_template('Restaurant.html', restaurant = restaurant, review = review)
 
 @app.route('/restaurants/tulio')
 def tulio():
@@ -559,7 +559,7 @@ def gabriella_romero():
 def tyler_durden():
 	reviewer = {'name':'Tyler Durden', 'date_joined':'July 25, 2015', 'origin':'USA','location':'Seattle, WA', 'fave_restaurant':'Tulio', 'bio':'I am a freelance writer based in Seattle. When I\'m not writing, I love taking long walks along the beach, sitting in coffee shops, and enjoying fine wine. My first book inspired an award winning movie, so I am doing quite well. I love to explore the Seattle outdoors.', 'img':'../static/img/durdenpic.jpg'}
 
-	return render_template('Reviewer.html', reviewer = reviewer)	
+	return render_template('Reviewer.html', reviewer = reviewer)
 
 @app.route('/reviewer/pauledgars')
 def paul_edgars():
