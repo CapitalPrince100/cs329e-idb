@@ -649,4 +649,4 @@ def robert_evremonde():
 	return render_template('Reviewer.html', reviewer = reviewer)
 
 if __name__ == '__main__':
-	app.run('107.170.6.199', '8910') # Run application
+	app.run('107.170.6.199', '80') # Run application
