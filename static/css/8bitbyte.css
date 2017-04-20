@@ -122,6 +122,41 @@ p {
 
 th, td {
     font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+table a:link, a:visited {
+    color: #d89f01;
+}
+
+table {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+#table-wrapper {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.dataTables_wrapper {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    direction: rtl;
+    position: relative;
+    clear: both;
+    *zoom: 1;
+    zoom: 1;
+}
+
+th.sorting_asc {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
 }
 
 .pillar-title {
@@ -180,7 +215,7 @@ th, td {
 }
 
 .nav-wrapper img {
-    height: 45px;
+    height: 60px;
     padding: 0.9rem;
 }
 
@@ -191,13 +226,13 @@ th, td {
 }
 
 nav {
-    height: 40px;
-    line-height: 40px;
+    height: 60px;
+    line-height: 60px;
 }
 
 nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
-    height: 40px;
-    line-height: 40px;
+    height: 60px;
+    line-height: 60px;
 }
 
 nav .brand-logo {
@@ -205,14 +240,14 @@ nav .brand-logo {
 }
 
 nav .button-collapse i {
-    height: 40px;
-    line-height: 40px;
+    height: 60px;
+    line-height: 60px;
 }
 
 @media only screen and (min-width: 601px){
     nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-        height: 40px;
-        line-height: 40px;
+        height: 60px;
+        line-height: 60px;
     }
 }
 
@@ -329,4 +364,10 @@ nav .button-collapse i {
 
 .card-text {
     font-weight: 300;
+}
+
+brand-logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+
 }
