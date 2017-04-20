@@ -129,26 +129,6 @@ table a:link, a:visited {
     color: #d89f01;
 }
 
-table {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-}
-
-#table-wrapper {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-}
-
-.dataTables_wrapper {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    direction: rtl;
-    position: relative;
-    clear: both;
-    *zoom: 1;
-    zoom: 1;
-}
-
 th.sorting_asc {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
