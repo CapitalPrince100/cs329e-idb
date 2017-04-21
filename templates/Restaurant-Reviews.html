@@ -67,7 +67,7 @@
     <li role="presentation"><a href={{ url_for('reviewers') }}>Reviewers</a></li>
     <li role="presentation"><a href={{ url_for('about') }}>About</a></li>
 </ul>
-    <div class="pillar-title">{{ restaurant.name }} Reviews</div>
+    <div class="pillar-title"><a href={{ url_for(restaurant.url) }}> {{ restaurant.name }}</a> Reviews</div>
     <div class="table-container">
         <table id="table" class="table table-hover table-striped">
             <thead>
