@@ -21,12 +21,12 @@
 
 
     <!-- Import custom stylesheet -->
-    <link type="text/css" rel="stylesheet" href="../static/css/8bitbyte.css"/>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:600" rel="stylesheet">
     <!-- Single-Page styles -->
 	<link rel="stylesheet" href="../static/css/container.css">
     <link rel="stylesheet" href="../static/css/single_page.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/8bitbyte.css"/>
 
     <title>{{ restaurant.name }}</title>
 
@@ -57,21 +57,45 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-2 col-md-2 offset-lg-1 offset-md-1">
-			    <p><b>{{ restaurant.name }}</b><p>
 				<img src= {{ images.1 }}/>
 				<img src= {{ images.2 }}/>
 				<img src= {{ images.3 }}/>
 			</div>
 			<div class="col-lg-8 col-md-8">
-				<h2><b>Review by <a href={{ url_for(reviewer.url) }}>{{ reviewer.name }}</a></b></h2>
-				<p><span class="data-type">Full Review:</span> {{ reviewer.review }}</p>
+				<h2>Review of <a href={{ url_for(restaurant.url) }}>{{ restaurant.name }}</a> by <a href={{ url_for(reviewer.url) }}>{{ reviewer.name }}</a></h2>
+
+                <h3 class="subtitle">Full Review</h3>
+                    <p>{{ reviewer.review }}</p>
+
+                <h3 class="subtitle">Service</h3>
+                    <p>{{ reviewer.service_rating }}</p>
+
+                <h3 class="subtitle">Atmosphere</h3>
+                    <p>{{ reviewer.atmosphere_rating }}</p>
+
+                <h3 class="subtitle">Value</h3>
+                    <p>{{ reviewer.value_rating }}</p>
+
+                <h3 class="subtitle">Food Quality</h3>
+                    <p>{{ reviewer.food_rating }}</p>
+
+                <h3 class="subtitle">Dress</h3>
+                    <p>{{ reviewer.dress }}</p>
+
+                <h3 class="subtitle">Would Recommend</h3>
+                    <p>{{ reviewer.would_recommend }}</p>
+
+                <a href={{ url_for( reviewer.all_reviews )}}>View all reviews by {{ reviewer.name}}</a>
+
+
+    			<!-- <p><span class="data-type">Full Review:</span> {{ reviewer.review }}</p>
 				<p><span class="data-type">Service:</span> {{ reviewer.service_rating }}</p>
 				<p><span class="data-type">Atmosphere:</span> {{ reviewer.atmosphere_rating }}</p>
 				<p><span class="data-type">Value:</span> {{ reviewer.value_rating }}</p>
 				<p><span class="data-type">Food Quality:</span> {{ reviewer.food_rating }}</p>
 				<p><span class="data-type">Dress:</span> {{ reviewer.dress }}</p>
                 <p><span class="data-type">Would Recommend:</span> {{ reviewer.would_recommend }}</p>
-                <p><span class="data-type"><a href={{ url_for( reviewer.all_reviews )}}>View all reviews by {{ reviewer.name}}</a></span></p>
+                <p><span class="data-type"><a href={{ url_for( reviewer.all_reviews )}}>View all reviews by {{ reviewer.name}}</a></span></p> -->
 				</div>
 		</div>
 	   <div class="table-container">
