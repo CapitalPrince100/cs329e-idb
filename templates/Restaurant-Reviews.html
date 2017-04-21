@@ -34,7 +34,7 @@
     <!-- Import custom stylesheet -->
     <link type="text/css" rel="stylesheet" href="/static/css/8bitbyte.css"/>
 
-    <title>{{ restaurant.name }}</title>
+    <title>{{ restaurant.name }} Reviews</title>
     <script type="text/javascript">
         $(document).ready(function() {
             $('#table').DataTable({
@@ -67,12 +67,13 @@
     <li role="presentation"><a href={{ url_for('reviewers') }}>Reviewers</a></li>
     <li role="presentation"><a href={{ url_for('about') }}>About</a></li>
 </ul>
-    <div class="pillar-title">All Reviews by {{ reviewer.name }}</div>
+    <div class="pillar-title">{{ restaurant.name }} Reviews</div>
     <div class="table-container">
         <table id="table" class="table table-hover table-striped">
             <thead>
                 <tr>
                     <th>Review Number</th>
+                    <th>Reviewer</th>
                     <th>Restaurant</th>
                     <th>Restaurant Location</th>
 
@@ -85,6 +86,7 @@
             <tbody>
                 <tr>
                     <td>1</td>
+                    <td><a href={{ url_for(reviewer.url) }}>{{ reviewer.name }}</td>
                     <td><a href={{ url_for(restaurant.url) }}>{{ restaurant.name }}</td>
                     <td>{{ restaurant.address }}</td>
                     <td>{{ review.date }}</td>
