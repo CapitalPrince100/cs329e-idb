@@ -37,7 +37,7 @@ def about():
 @app.route('/review/1')
 def review_1():
 
-	restaurant = { 'name': 'VertsKebap' }
+	restaurant = { 'name': 'VertsKebap', 'url':'vertskebap' }
 	reviewer = {
 		'name': 'John Anderson',
 		'review': '"Their Kebaps are really good and healthy. This place has changed a lot since I first started UT. Still my go to place when I need something fast, but have been a little disappointed in the prices increases. In particular, I really enjoy their beef and gyro wrap. Having lived a majority of my life in Germany where Doner Kebaps are a staple food, I can attest that the meat is fresh and pleasingly authentic. I would recommend anyone who wants to try some quick and tasty German food to come here!" - 2/1/2017',
@@ -61,7 +61,7 @@ def review_1():
 
 @app.route('/review/2')
 def review_2():
-	restaurant = {'name': 'WildwoodKitchen'}
+	restaurant = {'name': 'WildwoodKitchen', 'url':'wildwoodkitchen'}
 	reviewer = {
 		'name': 'James Connelly',
 		'review': '"Before I start harping on the quality of the food, I will applaud Wildwood for having tremendous customer service. My waiter Sarah was always quick and responsive to my requests and showed enthusiasm and genuine concern for my experience at the restaurant. But beyond that, I will say, Wildwood is nothing more than subpar barbeque." - 2/1/2017',
@@ -84,7 +84,7 @@ def review_2():
 
 @app.route('/review/3')
 def review_3():
-	restaurant = {'name': 'Ulele'}
+	restaurant = {'name': 'Ulele', 'url': 'ulele'}
 	reviewer = {
 		'name': 'Gabriella Romero',
 		'review': '"I\'ll admit, I went into Ulele expecting great things. I\'d heard my ex-husband and his brand new wife had them cater his new wedding (with his brand new wife). I made reservations for 1 at Ulele 2 weeks in advance because I have a lot of free time in my single life, and I\'m able to think far in advance without a man on my mind. When the evening rolled around, I donned my new bonnet which I regained custody of, and took a taxi to the restaurant. I was seated at a table close to the animatronic singing pelican and placed my napkin in my lap. When the waitress came around I asked for: "1 Hawaiian Punch" because I only need onre drink for one person, but I was thoroughly dismayed that a fine restaurant like Ulele\'s didnt\' have Hawaiian Punch. Fudrucker\'s wouldn\'t make this mistake!!! However, I rallied and ordered a glass of iced tea in its place. Then, I was starting to feel liberated and free all by my lonesome, so I ordered a bowl of ice cream for dinner. Only 1 bowl because I only need 1 for 1 person eating. Me. But I got overzealous and started ordering ice cream hand over fist. More MORE MORE!!!! My tab came out to well over a hundred dollars, but since I\'m not spending money on my husband anymore, this wasn\'t a problem. I would strongly reccomend this specific experience to all those lonely souls out there." - 2/14/2017',
@@ -107,7 +107,7 @@ def review_3():
 
 @app.route('/review/4')
 def review_4():
-	restaurant = {'name': 'Tulio'}
+	restaurant = {'name': 'Tulio', 'url': 'tulio'}
 	reviewer = {
 		'name': 'Tyler Durden',
 		'review': '"Fantastic! Brought my girlfriend here for a date night and we both really enjoyed it. This place is expensive, but well worth it for a special occasion. The ambience was extremely conducive for setting an intimate mood; the soft music that plays in the background complements the dimly lit interior perfectly. Our servers were also excellent - they executed our orders perfectly without fail and even gave us a complimentary dessert at the end of dinner! Can\'t wait to come back." - 3/3/2016',
@@ -130,7 +130,7 @@ def review_4():
 
 @app.route('/review/5')
 def review_5():
-	restaurant = {'name': 'The Capital Grille'}
+	restaurant = {'name': 'The Capital Grille', 'url': 'thecapitalgrill'}
 	reviewer = {
 		'name': 'Paul Edgars',
 		'review': '"I ordered the tuna tartare with avocado, mango and sriracha. Expecting a very fine meal, I ordered a fine glass of Pinot Grigio to go along with (what I *expected* to be) the culinary masterpiece that followed. Three words for the experience. Un. Be. Lievable. First the waitress tripped and spilled the wine bottle on my three piece suit. Proceeded to apologize and offer me my entire meal for free. Since I\'d already planned to go to the dry cleaners, I thought I\'d calmly wait it out and eat the free meal. Not worth it! The tuna tartare was TERRIBLY tart and the mango was well overripe. And one would think Sriracha would be the same restaurant to restaurant, but apparently NOT. Horribly tangy and watery. Overall *VERY* poor experience! The only thing redeeming was the cheesy bread appetizers (which I MUST find the recipe for). " - 4/01/2017',
@@ -153,7 +153,7 @@ def review_5():
 
 @app.route('/review/6')
 def review_6():
-	restaurant = {'name': 'Snake River Grill'}
+	restaurant = {'name': 'Snake River Grill', 'url':'snakerivergrill'}
 	reviewer = {
 		'name': 'Madison Monet',
 		'review': '"Let me just start by saying I consider myself a duck fry connoisseur. Now when I say Snake River Grill has some damn good duck fries I mean it. They are to die for! The service was great yadda yadda world class blah blah. The duck fries were the bees knees that\'s all that mattered. Go eat their duck fries." - 1/4/2014',
@@ -177,7 +177,7 @@ def review_6():
 
 @app.route('/review/7')
 def review_7():
-	restaurant = {'name': 'Slymans'}
+	restaurant = {'name': 'Slymans', 'url':'slymans'}
 	reviewer = {
 		'name': 'Alex Buff',
 		'review': '"I\'m a regular at Slyman\'s. I know the owner. The owner knows me. I walk in, give him a nod and he starts cooking my usual. Thats how a resuraunt should be run. No talking, no shenanigans.The food is great what else can I say. Their corned beef is good." - 5/4/2011',
@@ -200,7 +200,7 @@ def review_7():
 
 @app.route('/review/8')
 def review_8():
-	restaurant = {'name': 'Scala\'s Bistro'}
+	restaurant = {'name': 'Scala\'s Bistro', 'url':'scalasbistro'}
 	reviewer = {
 		'name': 'Josh Davis',
 		'review': '"The fog of time probably distorts my memory of Scala\'s somewhat but the standard of quality is down quite a bit and it\'s evident in the service, menu, and food. It\'s unfortunate but it is what it is - just another okay restaurant serving passable food to tourists. It was once so much better." - 3/3/2017',
@@ -223,7 +223,7 @@ def review_8():
 
 @app.route('/review/9')
 def review_9():
-	restaurant = {'name': 'Park\'s Barbeque'}
+	restaurant = {'name': 'Park\'s Barbeque', 'url':'parksbarbeque'}
 	reviewer = {
 		'name': 'Young-Joun Kim',
 		'review': '"On a blisteringly cold day in LA, several bros and I stepped into Park\'s for some kalbi and soondobu jjigae to warm the soul. Love the meat here - it\'s always so fresh and juicy. We ordered 4 platters of kalbi, 3 platters of bulgolgi, 3 platters of samgyobsal (pork belly), 4 orders of NY strip steak, 2 orders of grilled squid, and 4 bowls of soondobu jjigae. And the banchan here are soooo good!! Especially love the kimchi - Park\'s ferments their kimchi so it\'s pretty sour when you eat it, which is what I love. But, some of my non-Korean friends don\'t love it as much as I do, which is cool. My only request for Park\'s is to serve their food faster next time. They do use a classic KBBQ stalling technique to try to save some cash." - 12/28/2014',
@@ -247,7 +247,7 @@ def review_9():
 
 @app.route('/review/10')
 def review_10():
-	restaurant = {'name': 'La Contenta'}
+	restaurant = {'name': 'La Contenta', 'url':'lacontenta'}
 	reviewer = {
 		'name': 'Amy Yang',
 		'review': '"Beef wasn\'t well cooked...way too chewy and unseasoned. Probably wouldn\'t return again. But everything else wasn\'t bad...I will say, for vegetarians, it does have a redeeming factor: they do have a temporary buy-one-get-one deal for vegetarian tacos during certain hours. So perhaps if you\'re looking for a cheap, vegetarian meal in NYC for you and a friend...maybe you can stop by here. Just don\'t get the beef." - 10/22/2016',
@@ -270,7 +270,7 @@ def review_10():
 
 @app.route('/review/11')
 def review_11():
-	restaurant = {'name': 'El Taco Riendo'}
+	restaurant = {'name': 'El Taco Riendo', 'url':'eltacoriendo'}
 	reviewer = {
 		'name': 'Sally Chen',
 		'review': '"Everything on El Taco Riendo\'s menu is incredible. I\'ve ordered multiple variations of their taco trio, ranging from chicken to brisket to pork to tofu tacos - they have it all. Anything you want in a taco, they can make for you. I love the chill atmosphere of the restaurant. It\'s a great place to kick it with friends on the weekend; they also have an amazing drink selection. I\'d recommend the house sangria - but don\'t have more than two because they\'re quite strong :) I\'d highly recommend this to anyone who is taco obsessed like me!" - 01/15/2017',
@@ -293,7 +293,7 @@ def review_11():
 
 @app.route('/review/12')
 def review_12():
-	restaurant = {'name': 'Brasserie Les Halles'}
+	restaurant = {'name': 'Brasserie Les Halles', 'url':'brasserieleshalles'}
 	reviewer = {
 		'name': 'Robert Evremonde',
 		'review': '"This is Chef Anthony Bourdain\'s restaurant. This is a fantastic restaurant, truly superb. The wine pairing is well thought out and a true delight. I am thankful that the oysters here at Les Halles remind me of the freshly shucked oysters I grew up eating in France. The bread here is also great, very fresh and aromatic -- all in all, this restaurant really reminds me of the famous Les Halles in Paris!" - 3/30/2017',
