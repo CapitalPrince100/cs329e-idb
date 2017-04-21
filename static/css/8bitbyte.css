@@ -116,22 +116,16 @@ section.details {
     text-align: center;
 }
 
-p {
-    font-family: 'Roboto', sans-serif;
-}
-
 th, td {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
 }
 
-table a:link, a:visited {
+table a:link, a:visited, a:focus, a:hover, a:active {
     color: #d89f01;
-}
-
-th.sorting_asc {
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
+    text-decoration: none;
 }
 
 label {
@@ -143,7 +137,7 @@ label {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 1.8rem;
+    font-size: 3.8rem;
 }
 
 .review-image-collapsible {
@@ -350,4 +344,27 @@ brand-logo {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
 
+}
+
+a {
+    color:#d89f01;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+col-lg-8 col-md-8 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
 }
