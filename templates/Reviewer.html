@@ -21,12 +21,12 @@
       <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
 
       <!-- Import custom stylesheet -->
-      <link type="text/css" rel="stylesheet" href="../static/css/8bitbyte.css"/>
       <!-- Google Font -->
       <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:600" rel="stylesheet">
       <!-- Single-Page styles -->
-  	  <link rel="stylesheet" href="../static/css/containers.css">
+  	  <link rel="stylesheet" href="../static/css/container.css">
       <link rel="stylesheet" href="../static/css/single_page.css">
+      <link type="text/css" rel="stylesheet" href="../static/css/8bitbyte.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,11 +58,28 @@
 			</div>
 			<div class="col-lg-8 col-md-8">
 				<h2>{{ reviewer.name }}</h2>
-				<p><span class="data-type">Date Joined:</span> {{ reviewer.date_joined }}</p>
-				<p><span class="data-type">Country of Origin:</span> {{ reviewer.origin }}</p>
+				<h3 class="subtitle">Date Joined</h3>
+                    <p>{{ reviewer.date_joined }}</p>
+
+                <h3 class="subtitle">Country of Origin</h3>
+                    <p>{{ reviewer.origin }}</p>
+
+                <h3 class="subtitle">Location</h3>
+                    <p>{{ reviewer.location }}</p>
+
+                <h3 class="subtitle">Favorite Restaurants</h3>
+                    <p>{{ reviewer.fave_restaurant }}</p>
+
+                <h3 class="subtitle">Bio</h3>
+                    <p>{{ reviewer.bio }}</p>
+
+
+
+
+				<!-- <p><span class="data-type">Country of Origin:</span> {{ reviewer.origin }}</p>
 				<p><span class="data-type">Currently Lives in:</span> {{ reviewer.location }}</p>
 				<p><span class="data-type">Favorite Restaurants:</span> {{ reviewer.fave_restaurant }}</p>
-				<p><span class="data-type">Biography:</span> {{ reviewer.bio }} </p>
+				<p><span class="data-type">Biography:</span> {{ reviewer.bio }} </p> -->
                 <p><span class="data-type"><a href={{ url_for(reviewer.url) }}>View all reviews by {{ reviewer.name }}</a></span></p>
         		<p><span class="data-type"><a>Connect with {{ reviewer.name }}</a></span></p>
 				<p><img src="../static/img/fb.png" style="width:35px;height=35px;margin:0px 35px 30px 0px"> <span style="margin:0px 0px 0px -30px"><a href="https://www.facebook.com">Facebook</a></span>
